@@ -1,1122 +1,1730 @@
 <!DOCTYPE html>
-
-<html lang="zh-TW">
+<html lang="zh-TW" data-theme="dark">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
-<title>國立空中大學 115學年度暑期期末考試題【正題 001】人生 100 幸福處方箋・官方標準答案與線上對答案系統</title>
-<meta content="國立空中大學 115學年度暑期期末考試題【正題】001 人生 100 幸福處方箋 原卷完整試題、官方標準答案、精確章節出處解析與學生線上對答案估分系統。" name="description"/>
-<meta content="#d97706" name="theme-color"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&amp;family=JetBrains+Mono:wght@400;600;800&amp;display=swap" rel="stylesheet"/>
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國立空中大學 115學年度暑期期末考試題【正題 001】人生 100 幸福處方箋・官方標準答案與線上對答案系統</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
     :root {
-      --primary: #d97706;
-      --primary-dark: #b45309;
-      --primary-light: #fef3c7;
-      --accent: #059669;
-      --accent-light: #d1fae5;
-      --warning: #f59e0b;
-      --bg: #f8fafc;
-      --surface: #ffffff;
-      --surface-elevated: #ffffff;
-      --text: #0f172a;
-      --text-muted: #334155;
-      --text-light: #64748b;
-      --border: #e2e8f0;
-      --border-focus: #f59e0b;
-      --tag-bg: #f1f5f9;
-      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -1px rgba(0,0,0,0.04);
-      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
-      --radius-sm: 8px;
-      --radius-md: 14px;
-      --radius-lg: 20px;
-      --font-base: 16px;
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --sub-card-bg: #1c2128;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #238636;
+      --accent-hover: #2ea043;
+      --primary: #58a6ff;
+      --primary-border: #1f6feb;
+      --gold: #d29922;
+      --gold-bg: rgba(210, 153, 34, 0.15);
+      --red: #f85149;
+      --purple: #bc8cff;
+      --green-glow: 0 0 16px rgba(46, 160, 67, 0.35);
+      --font-mono: 'JetBrains Mono', monospace;
     }
 
-    [data-theme="dark"] {
-      --primary: #fbbf24;
-      --primary-dark: #f59e0b;
-      --primary-light: #292524;
-      --accent: #34d399;
-      --accent-light: #064e3b;
-      --bg: #090d16;
-      --surface: #131b2e;
-      --surface-elevated: #1e293b;
-      --text: #f1f5f9;
-      --text-muted: #cbd5e1;
-      --text-light: #94a3b8;
-      --border: #22304a;
-      --border-focus: #fbbf24;
-      --tag-bg: #1e293b;
-      --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
-      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.5);
-      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.6);
+    [data-theme="light"] {
+      --bg: #f6f8fa;
+      --card-bg: #ffffff;
+      --card-border: #d0d7de;
+      --sub-card-bg: #f3f4f6;
+      --text: #1f2328;
+      --text-muted: #656d76;
+      --accent: #1a7f37;
+      --accent-hover: #1f883d;
+      --primary: #0969da;
+      --primary-border: #0550ae;
+      --gold: #9a6700;
+      --gold-bg: rgba(154, 103, 0, 0.1);
+      --red: #cf222e;
+      --purple: #8250df;
+      --green-glow: 0 0 16px rgba(26, 127, 55, 0.2);
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-size: var(--font-base);
-      line-height: 1.65;
-      background-color: var(--bg);
+      font-family: 'Noto Sans TC', sans-serif;
+      background: var(--bg);
       color: var(--text);
-      transition: background-color 0.3s ease, color 0.3s ease;
+      line-height: 1.6;
       padding-bottom: 90px;
+      transition: background 0.3s, color 0.3s;
     }
 
-    /* Header */
-    .header {
+    /* Sticky Header */
+    .top-header {
       position: sticky;
       top: 0;
-      z-index: 100;
-      background: rgba(255, 255, 255, 0.94);
+      z-index: 1000;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--card-border);
       backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 10px 16px;
-      transition: background 0.3s ease;
-    }
-    [data-theme="dark"] .header {
-      background: rgba(19, 27, 46, 0.94);
-    }
-
-    .header-content {
-      max-width: 900px;
-      margin: 0 auto;
+      padding: 10px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.25);
     }
-
-    .badge-nou {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: linear-gradient(135deg, #f59e0b, #d97706);
-      color: #ffffff;
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      box-shadow: 0 2px 4px rgba(217, 119, 6, 0.3);
-    }
-
-    .header-title-group h1 {
-      font-size: 1.05rem;
-      font-weight: 900;
-      color: var(--text);
-      line-height: 1.25;
-    }
-    .header-title-group p {
-      font-size: 0.76rem;
-      color: var(--text-light);
-    }
-
-    .score-meter {
+    .header-left {
       display: flex;
       align-items: center;
-      background: var(--tag-bg);
-      border: 1.5px solid var(--primary);
-      padding: 5px 12px;
-      border-radius: 999px;
-      font-size: 0.85rem;
-      font-weight: 800;
-      color: var(--primary);
-      gap: 6px;
+      gap: 12px;
     }
-    .score-meter span.val {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 1.15rem;
+    .logo-badge {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: white;
       font-weight: 900;
+      font-size: 0.85rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      letter-spacing: 0.5px;
     }
-
+    .header-title {
+      font-weight: 800;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
     }
-
-    .icon-btn {
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
+    .theme-toggle-btn {
+      background: var(--sub-card-bg);
+      border: 1px solid var(--card-border);
       color: var(--text);
-      width: 36px;
-      height: 36px;
-      border-radius: var(--radius-sm);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      font-size: 0.95rem;
-      transition: all 0.2s ease;
-    }
-    .icon-btn:active {
-      transform: scale(0.92);
-    }
-
-    .container {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 16px;
-    }
-
-    /* Paper banner info */
-    .paper-info-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 16px;
-      margin-bottom: 18px;
-      box-shadow: var(--shadow-sm);
-    }
-    .paper-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px dashed var(--border);
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-      font-size: 0.82rem;
-      color: var(--text-light);
-    }
-    .paper-title {
-      font-size: 1.15rem;
-      font-weight: 900;
-      color: var(--text);
-      margin-bottom: 4px;
-    }
-    .paper-desc {
+      padding: 6px 12px;
+      border-radius: 8px;
       font-size: 0.85rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-
-    /* Filter Bar */
-    .filter-wrapper {
-      margin-bottom: 18px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .filter-btn {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-      padding: 8px 14px;
-      border-radius: 999px;
-      font-size: 0.82rem;
       font-weight: 700;
       cursor: pointer;
-      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: 0.2s;
     }
-    .filter-btn.active, .filter-btn:hover {
-      background: var(--primary);
-      color: #ffffff;
+    .theme-toggle-btn:hover {
       border-color: var(--primary);
     }
 
-    /* Section Title */
-    .section-title-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-left: 5px solid var(--primary);
-      border-radius: var(--radius-md);
-      padding: 14px 16px;
-      margin: 24px 0 14px;
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px 16px;
+    }
+
+    /* Paper Info Card */
+    .paper-info-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .paper-meta-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      border-bottom: 1px dashed var(--card-border);
+      padding-bottom: 10px;
+      margin-bottom: 12px;
     }
-    .section-title-card h2 {
+    .honor-badge {
+      background: rgba(248, 81, 73, 0.15);
+      color: #f85149;
+      font-weight: 900;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(248, 81, 73, 0.3);
+    }
+    .paper-main-title {
+      font-size: 1.45rem;
+      font-weight: 900;
+      color: var(--text);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .code-badge {
+      background: var(--gold-bg);
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-family: var(--font-mono);
+      font-weight: 800;
+    }
+    .paper-sub-meta {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .paper-notice {
+      background: rgba(56, 139, 253, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.88rem;
+      color: var(--text);
+    }
+
+    /* Navigator Bar */
+    .nav-tabs-wrapper {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 10px 14px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-label-tag {
+      font-size: 0.82rem;
+      font-weight: 800;
+      color: var(--text-muted);
+      margin-right: 4px;
+    }
+    .nav-chip {
+      background: var(--sub-card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 5px 10px;
+      border-radius: 999px;
+      transition: all 0.2s;
+    }
+    .nav-chip:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+    .nav-chip.essay-chip {
+      border-color: rgba(188, 140, 255, 0.4);
+      color: var(--purple);
+    }
+
+    /* Filter Controls */
+    .filter-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .filter-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    /* Section Big Headers */
+    .section-divider-card {
+      background: linear-gradient(135deg, rgba(31, 111, 235, 0.15), rgba(16, 185, 129, 0.1));
+      border: 2px solid var(--primary-border);
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin: 32px 0 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .section-divider-card.essay-section {
+      background: linear-gradient(135deg, rgba(188, 140, 255, 0.15), rgba(210, 153, 34, 0.1));
+      border-color: var(--purple);
+    }
+    .section-main-title {
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: var(--text);
+    }
+    .section-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .section-score-badge {
+      background: var(--gold-bg);
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 0.9rem;
+    }
+
+    /* Big Question Container */
+    .big-q-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--card-border);
+      border-radius: 14px;
+      margin-bottom: 24px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+      scroll-margin-top: 80px;
+      transition: border-color 0.2s;
+    }
+    .big-q-card:hover {
+      border-color: #484f58;
+    }
+    .big-q-header {
+      background: var(--sub-card-bg);
+      border-bottom: 1.5px solid var(--card-border);
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .big-q-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .big-q-num-tag {
+      background: var(--primary);
+      color: white;
+      font-weight: 900;
+      font-size: 0.85rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .big-q-card.essay .big-q-num-tag {
+      background: var(--purple);
+    }
+    .big-q-title-text {
       font-size: 1.12rem;
       font-weight: 800;
       color: var(--text);
     }
-    .section-title-card .score-tag {
-      background: var(--primary-light);
-      color: var(--primary-dark);
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 0.75rem;
-      font-weight: 700;
+    .big-q-meta-info {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
     }
-
-    /* Question Card */
-    .q-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 18px 16px;
-      margin-bottom: 16px;
-      box-shadow: var(--shadow-sm);
-      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-      position: relative;
-    }
-    .q-card:hover {
-      box-shadow: var(--shadow-md);
-    }
-
-    .q-header {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 10px;
-      margin-bottom: 8px;
-    }
-    .q-num-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      background: var(--tag-bg);
-      border: 1px solid var(--border);
-      color: var(--primary);
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
-      font-size: 0.8rem;
-      padding: 3px 8px;
-      border-radius: var(--radius-sm);
-    }
-    .q-points {
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: var(--text-light);
-    }
-
-    .q-text {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--text);
-      line-height: 1.5;
-      margin-bottom: 10px;
-    }
-
-    /* Chapter Citation Badge */
-    .chapter-badge {
-      display: inline-flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-      background: #eff6ff;
-      border: 1px solid #bfdbfe;
-      color: #1d4ed8;
-      font-size: 0.76rem;
-      font-weight: 700;
+    .big-q-score-display {
+      font-family: var(--font-mono);
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: var(--gold);
+      background: var(--gold-bg);
       padding: 4px 10px;
       border-radius: 6px;
-      margin-bottom: 10px;
-    }
-    [data-theme="dark"] .chapter-badge {
-      background: #172554;
-      border-color: #1e40af;
-      color: #93c5fd;
+      border: 1px solid rgba(210, 153, 34, 0.3);
     }
 
-    /* Standard Answer Box */
-    .ans-box {
-      background: linear-gradient(to right, rgba(16, 185, 129, 0.08), rgba(245, 158, 11, 0.05));
-      border: 1.5px solid rgba(16, 185, 129, 0.4);
-      border-radius: var(--radius-sm);
-      padding: 12px 14px;
+    /* Sub-question items */
+    .sub-q-list {
+      padding: 16px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .sub-q-item {
+      background: var(--sub-card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 18px;
+      position: relative;
+    }
+    .sub-q-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-bottom: 10px;
     }
+    .sub-q-label {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      font-weight: 900;
+      font-size: 0.82rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .sub-q-points {
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      font-family: var(--font-mono);
+    }
+    .sub-q-text {
+      font-size: 1.02rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 14px;
+      line-height: 1.55;
+    }
+
+    /* Answer Box */
+    .ans-box {
+      background: rgba(35, 134, 54, 0.1);
+      border: 1.5px solid rgba(46, 160, 67, 0.4);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+    }
     .ans-label {
-      font-size: 0.75rem;
-      font-weight: 800;
-      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 900;
+      color: #4ade80;
       letter-spacing: 0.5px;
       margin-bottom: 4px;
-      display: flex;
-      align-items: center;
-      gap: 4px;
+      text-transform: uppercase;
     }
     .ans-core {
       font-size: 1.05rem;
-      font-weight: 900;
-      color: var(--text);
-      line-height: 1.45;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    .essay-sample {
+      font-size: 0.95rem;
+      color: #f0f6fc;
+      line-height: 1.7;
+      white-space: pre-line;
     }
 
-    /* Self Grading Widget */
-    .grading-widget {
-      background: var(--tag-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 10px 12px;
-      margin-top: 10px;
+    /* Course Citation Tag */
+    .chapter-badge {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 8px;
-    }
-    .grading-title {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--text-muted);
-    }
-    .grading-btns {
-      display: flex;
       gap: 6px;
-    }
-    .g-btn {
-      padding: 4px 10px;
-      font-size: 0.76rem;
-      font-weight: 700;
+      background: rgba(88, 166, 255, 0.08);
+      border: 1px solid rgba(88, 166, 255, 0.2);
       border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      cursor: pointer;
-      transition: all 0.15s;
-    }
-    .g-btn.full.active { background: var(--accent); color: white; border-color: var(--accent); }
-    .g-btn.half.active { background: var(--warning); color: white; border-color: var(--warning); }
-    .g-btn.zero.active { background: #64748b; color: white; border-color: #64748b; }
-
-    /* Academic Explanation Toggle */
-    .details-toggle {
-      background: var(--tag-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 8px 12px;
+      padding: 6px 12px;
       font-size: 0.82rem;
+      color: #79c0ff;
+      margin-bottom: 12px;
+    }
+    .chapter-badge .teacher-name {
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    /* Explanation Accordion */
+    .details-toggle {
+      font-size: 0.84rem;
       color: var(--text-muted);
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 6px 0;
       user-select: none;
-      margin-top: 8px;
+      border-top: 1px dashed var(--card-border);
+      margin-top: 10px;
+    }
+    .details-toggle:hover {
+      color: var(--primary);
     }
     .details-content {
       display: none;
-      padding: 10px 6px 4px;
-      font-size: 0.86rem;
+      padding: 10px 12px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      font-size: 0.88rem;
       color: var(--text-muted);
       line-height: 1.6;
-      border-top: 1px dashed var(--border);
       margin-top: 6px;
     }
-    .details-content.open { display: block; }
-
-    /* Essay Specific */
-    .essay-card {
-      border-left: 5px solid var(--primary);
+    .details-content.show {
+      display: block;
     }
-    .essay-sample {
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
-      border-left: 3px solid var(--accent);
-      border-radius: var(--radius-sm);
-      padding: 14px 16px;
-      margin: 10px 0;
-      font-size: 0.92rem;
+
+    /* Action bar per sub-question */
+    .sub-q-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .grading-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .grade-title {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+    .g-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
       color: var(--text);
-      line-height: 1.7;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.15s;
     }
-
+    .g-btn:hover {
+      border-color: var(--primary);
+    }
+    .g-btn.active.full {
+      background: #238636;
+      border-color: #2ea043;
+      color: white;
+    }
+    .g-btn.active.half {
+      background: #d29922;
+      border-color: #e3b341;
+      color: white;
+    }
+    .g-btn.active.zero {
+      background: #f85149;
+      border-color: #da3633;
+      color: white;
+    }
     .copy-btn {
       background: transparent;
-      border: 1px solid var(--border);
+      border: 1px solid var(--card-border);
       color: var(--text-muted);
-      padding: 5px 12px;
-      border-radius: var(--radius-sm);
-      font-size: 0.75rem;
-      font-weight: 600;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
       cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      transition: all 0.2s;
+      transition: 0.15s;
     }
     .copy-btn:hover {
-      border-color: var(--primary);
-      color: var(--primary);
-      background: var(--primary-light);
+      border-color: var(--text);
+      color: var(--text);
     }
 
+    /* Answer Sheet View */
+    .answer-sheet-container {
+      background: var(--card-bg);
+      border: 2px solid var(--gold);
+      border-radius: 14px;
+      padding: 24px;
+      margin: 40px 0 20px 0;
+      box-shadow: 0 4px 24px rgba(210, 153, 34, 0.15);
+    }
+    .sheet-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      border-bottom: 2px solid var(--card-border);
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+    }
+    .sheet-title {
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: var(--gold);
+    }
+    .sheet-content {
+      background: var(--sub-card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 0.94rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      color: var(--text);
+    }
+
+    /* Fixed Score Footer */
+    .score-dock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(22, 27, 34, 0.95);
+      border-top: 1.5px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+    }
+    .score-summary {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .score-number {
+      font-family: var(--font-mono);
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #34d399;
+    }
+    .score-total-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .dock-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .dock-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.88rem;
+      cursor: pointer;
+      border: none;
+      transition: 0.2s;
+    }
+    .dock-btn.reset {
+      background: var(--sub-card-bg);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+    }
+    .dock-btn.reset:hover {
+      border-color: var(--red);
+      color: var(--red);
+    }
+
+    /* Toast */
     .toast {
       position: fixed;
-      bottom: 24px;
+      bottom: 80px;
       left: 50%;
-      transform: translateX(-50%) translateY(100px);
-      background: #0f172a;
-      color: #ffffff;
-      padding: 10px 20px;
+      transform: translateX(-50%);
+      background: #238636;
+      color: white;
+      font-weight: 800;
+      padding: 10px 22px;
       border-radius: 999px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-      z-index: 1000;
-      opacity: 0;
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .toast.show {
-      transform: translateX(-50%) translateY(0);
-      opacity: 1;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      display: none;
+      z-index: 2000;
+      font-size: 0.9rem;
     }
 
-    @media print {
-      .header, .filter-wrapper, .grading-widget, .copy-btn, .details-toggle { display: none !important; }
-      .details-content { display: block !important; border: none; }
-      .q-card { break-inside: avoid; border: 1px solid #000; box-shadow: none; margin-bottom: 12px; }
-      .ans-box { border: 1px solid #000; background: #fff; }
+    @media (max-width: 768px) {
+      .header-title { font-size: 0.95rem; }
+      .paper-main-title { font-size: 1.2rem; }
+      .big-q-title-text { font-size: 1.02rem; }
+      .sub-q-item { padding: 14px; }
+      .sub-q-footer { flex-direction: column; align-items: flex-start; }
+      .dock-actions { gap: 6px; }
+      .score-number { font-size: 1.3rem; }
     }
   </style>
 </head>
 <body>
-<!-- Top Sticky Header -->
-<header class="header">
-<div class="header-content">
-<div class="header-title-group">
-<div class="badge-nou">國立空中大學 115暑期期末考【正題 001】</div>
-<h1>人生 100 幸福處方箋・官方標準答案與線上對答案系統</h1>
-<p>空大官方標準答案 ＋ 課程章節出處與深度解析</p>
-</div>
-<div class="score-meter" title="點擊各題按鈕即時估算您的總成績">
-<span>您的預估分數:</span>
-<span class="val" id="totalScore">0</span>
-<span>/ 100</span>
-</div>
-<div class="header-actions">
-<button class="icon-btn" onclick="toggleTheme()" title="深色模式">🌓</button>
-<button class="icon-btn" onclick="window.print()" title="列印考卷">🖨️</button>
-</div>
-</div>
-</header>
-<div class="container">
-<!-- Paper Header Meta -->
-<div class="paper-info-card">
-<div class="paper-header">
-<span>榮譽第一 │ ※考試時間請關閉手機，手機鈴響，依規定扣分</span>
-<span>一律橫式作答 │ 共 1 頁</span>
-</div>
-<div class="paper-title">國立空中大學 115 學年度暑期期末考試題【正題】001</div>
-<div class="paper-desc">
-<strong>科目：人生 100 幸福處方箋</strong><br/>
-        注意：本試卷嚴禁於卷面上作答，所有答案請依題號標示，並完整書寫於「答案紙（卷）」上。
-      </div>
-</div>
-<!-- Filter Buttons -->
-<div class="filter-wrapper">
-<button class="filter-btn active" onclick="filterItems('all')">📑 顯示全卷題目 (100分)</button>
-<button class="filter-btn" onclick="filterItems('short')">📌 一、簡答題 60% (共 6 大題)</button>
-<button class="filter-btn" onclick="filterItems('essay')">📝 二、申論題 40% (共 2 大題)</button>
-<button class="filter-btn" onclick="resetGrading()">🔄 重置對答案分數</button>
-</div>
-<!-- ==================== 簡答題 60% ==================== -->
-<div class="section-title-card sec-short">
-<h2>一、簡答題 60% (共 6 大題，每大題 10 分，共 60 分)</h2>
-<span class="score-tag">說明：請簡短回答下列各子題。答出核心觀點或名詞即可。</span>
-</div>
-<!-- 1. 關於本課程提到的核心觀念 -->
-<div class="q-card sec-short" data-max="2" id="card_1_1">
-<div class="q-header">
-<span class="q-num-badge">1. 核心觀念 ①</span>
-<span class="q-points">配分 2 分</span>
-</div>
-<div class="q-text">1. 關於本課程提到的核心觀念：<br/>①. 經濟發展到一定水準後，人們對生活的滿足感反而開始下降，這在學術上稱為什麼理論？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 1 章第 1 節「1-1 社會變遷與個體學習」＆ 第 1 章第 6 節「1-6 Makino 幸福迴響」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">伊斯特林悖論（Easterlin Paradox，又稱「幸福悖論」）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_1_1', 2, this)">滿分 (+2)</button>
-<button class="g-btn half" onclick="grade('card_1_1', 1, this)">部分 (+1)</button>
-<button class="g-btn zero" onclick="grade('card_1_1', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 1 章觀念對談「1-1 社會變遷與個體學習」（07:47-08:23）與「1-6 Makino 幸福迴響」。由經濟學家理查・伊斯特林（Richard Easterlin）提出。牧野篤教授指出：當國家人均所得與物質經濟達到一定水準後（日本以 1984 年為分水嶺），國民的主觀幸福感與生活滿足感反而停滯或開始遞減，揭示了人類社會正從追求物質的「佔有慾望（Having）」轉型為追尋人際歸屬的「存在慾望（Being）」。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('伊斯特林悖論（Easterlin Paradox）')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="2" id="card_1_2">
-<div class="q-header">
-<span class="q-num-badge">1. 核心觀念 ②</span>
-<span class="q-points">配分 2 分</span>
-</div>
-<div class="q-text">1. 關於本課程提到的核心觀念：<br/>②. 傳統教室「老師站高台、學生排排坐」的空間設計，隱含了源自工業社會的什麼思想？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 3 章第 1 節「3-1 近代學校制度的形成與限制」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">模仿「圓形監獄 (Panopticon)」之高台全景監控、規格統一標準化勞工規訓思想（工廠流水線思想）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_1_2', 2, this)">滿分 (+2)</button>
-<button class="g-btn half" onclick="grade('card_1_2', 1, this)">部分 (+1)</button>
-<button class="g-btn zero" onclick="grade('card_1_2', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 3 章「3-1 近代學校制度的形成與限制」與「3-2 非學習與日常生活再發現」。近代學校制度源自 19 世紀工業革命以來的工廠生產模式，教室空間採「講台居高臨下、課桌排排坐朝向前方」，本質上複製了工廠流水線的「標準化、大量複製、規格化生產與邊沁式階層規訓（圓形監獄監控）」，將學生視為同規格的勞動力原料，已無法因應百歲長壽社會自主、多元的終身學習需求。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('模仿「圓形監獄 (Panopticon)」之高台監控與規格統一標準化勞工規訓思想')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="2" id="card_1_3">
-<div class="q-header">
-<span class="q-num-badge">1. 核心觀念 ③</span>
-<span class="q-points">配分 2 分</span>
-</div>
-<div class="q-text">1. 關於本課程提到的核心觀念：<br/>③. 根據研究，決定現代人幸福感前三大因素中，取代「金錢與學歷」的第三大要素是什麼？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 1 章第 6 節「1-6 Makino 幸福迴響」＆ 第 4 章第 6 節「4-6 Makino 幸福迴響」</span>
-<span>(講授名師：牧野篤 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">【自我決定 (Self-Determination)】</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_1_3', 2, this)">滿分 (+2)</button>
-<button class="g-btn half" onclick="grade('card_1_3', 1, this)">部分 (+1)</button>
-<button class="g-btn zero" onclick="grade('card_1_3', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自「1-6 Makino 幸福迴響」（02:39-02:51）與「4-6 Makino 幸福迴響」。牧野篤教授特別引述哈佛大學歷時 85 年的「成人發展研究（Harvard Study of Adult Development）」，該研究證實：決定一個人一生是否健康、幸福長壽的最關鍵要素，既非名利財富，亦非早期學歷地位，而是「良好真誠的人際關係（親密關係與社區連結）」。孤立無援對人體的傷害等同於慢性毒害，而深厚的情感支持網絡才是最強大的幸福處方箋。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('自我決定 (Self-Determination)')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="2" id="card_1_4">
-<div class="q-header">
-<span class="q-num-badge">1. 核心觀念 ④</span>
-<span class="q-points">配分 2 分</span>
-</div>
-<div class="q-text">1. 關於本課程提到的核心觀念：<br/>④. 將別人的困難與痛苦視為自己的事，並主動給予幫助，這種人類的美好本質稱為什麼？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 3 章第 4 節「3-4 Makino 幸福講堂」＆ 第 6 章第 4 節「6-4 Makino 幸福講堂」</span>
-<span>(講授名師：牧野篤 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">利他之心 / 共感精神（Altruism / Compassion 同理共好）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_1_4', 2, this)">滿分 (+2)</button>
-<button class="g-btn half" onclick="grade('card_1_4', 1, this)">部分 (+1)</button>
-<button class="g-btn zero" onclick="grade('card_1_4', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自「3-4 Makino 幸福講堂」（00:40-01:29）與「6-4 Makino 幸福講堂」。牧野篤教授指出，在「存在慾望（Being）」的社會中，人類展現出最美好的天賦本質——「共感／慈悲心（Compassion）」。Compassion 由拉丁字根組成，意即「將他人的痛苦與悲哀，視為自己本身的痛苦與悲哀」，進而主動陪伴走在一起（伴走），共同承擔生命挑戰，這是建構「共感社區（Compassionate Community）」的核心黏著劑。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('利他之心 / 共感精神（Altruism / Compassion）')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="2" id="card_1_5">
-<div class="q-header">
-<span class="q-num-badge">1. 核心觀念 ⑤</span>
-<span class="q-points">配分 2 分</span>
-</div>
-<div class="q-text">1. 關於本課程提到的核心觀念：<br/>⑤. 隨著年齡增長，越來越渴望去守護、培育下一代的情感本質，稱為什麼？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 6 章第 2 節「6-2 Generativity與世代傳承的智慧」＆ 第 6 章第 4 節「6-4 Makino 幸福講堂」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">世代傳承感 / 關懷下一代本質（Generativity / 繁衍關懷）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_1_5', 2, this)">滿分 (+2)</button>
-<button class="g-btn half" onclick="grade('card_1_5', 1, this)">部分 (+1)</button>
-<button class="g-btn zero" onclick="grade('card_1_5', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 6 章「6-2 Generativity與世代傳承的智慧」與「6-4 Makino 幸福講堂」。源自心理學家艾瑞克森（Erikson）的人生發展理論。高齡個體隨年歲增長，內心會自然萌發渴望守護、滋養並提攜下一代的心理本能（Generativity，世代傳承／生生不息／繁衍感）。透過將自己一生的生活智慧無條件「恩送（Pay it forward）」給後代，長者能超越孤立停滯，邁向「老年期超越（Gerotranscendence）」的圓融境界。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('世代傳承感 / 關懷下一代本質（Generativity）')">📋 複製標準答案</button>
-</div>
-</div>
-<!-- 2. 人口轉型與跨世代對話 -->
-<div class="q-card sec-short" data-max="5" id="card_2_1">
-<div class="q-header">
-<span class="q-num-badge">2. 人口與對話 ①</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">2. 關於人口轉型與跨世代對話：<br/>①. 社會從過去的「多生多死」轉向「少生少死」，請問這裡的「少死」，是指在醫療與生活進步下，現在的人出生後普遍都能如何？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 2 章第 1 節「2-1 長壽社會與多段式人生」＆ 第 2 章第 6 節「2-6 Makino 幸福迴響」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">嬰兒夭折率極低，絕大多數人出生後普遍都能平安健康活到高齡／安享天年（邁向百歲長壽人生）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_2_1', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_2_1', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_2_1', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 2 章「2-1 長壽社會與多段式人生」（13:05）與「2-6 Makino 幸福迴響」（00:31-01:16）。在傳統農業社會，高出生率伴隨極高的嬰幼兒夭折率（多生多死）；而在現代公衛與醫療進步下，人口結構轉型為「少生少死」，這裡的「少死」並非永不死亡，而是指「每個人出生之後，幾乎普遍都能平安長大、活到天年（活到 80~100 歲）」。人口結構從金字塔型轉變為長方柱型，正式揭開百歲長壽時代的序幕。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('嬰兒夭折率極低，絕大多數人出生後普遍都能平安健康活到高齡／享有百歲長壽')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="5" id="card_2_2">
-<div class="q-header">
-<span class="q-num-badge">2. 人口與對話 ②</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">2. 關於人口轉型與跨世代對話：<br/>②. 日本益田市舉辦了跨世代對話。長輩們在對話中大方分享了自己真實的什麼經歷，成功打破了年輕人覺得長輩無聊的偏見？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 3 章第 3 節「3-3 實踐案例：人生百歲俱樂部」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">年輕時真實的「失敗經歷 / 挫折出糗與人生迷惘經歷」（語りの場 Katari）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_2_2', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_2_2', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_2_2', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 3 章實踐案例「3-3 實踐案例：人生百歲俱樂部」（08:07-10:00）。牧野篤教授親身指導日本島根縣益田市的地方創生計畫。過去地方大人總單向對年輕人說教灌輸家鄉歷史，導致高達 53% 青少年覺得「大人很無聊、想逃離家鄉」。後來益田市推動「跨世代對話場」，長輩手繪人生路徑地圖，大方坦承自己年輕時「走過的彎路、真實的失敗、挫折與迷惘經歷」。年輕人驚覺長輩的人生充滿溫度與魅力，深感共鳴與啟發，徹底打破了對老人的刻板偏見。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('年輕時真實的「失敗經驗 / 挫折出糗與人生迷惘經歷」')">📋 複製標準答案</button>
-</div>
-</div>
-<!-- 3. 豐田市「自給自足家族」的地方實踐 -->
-<div class="q-card sec-short" data-max="5" id="card_3_1">
-<div class="q-header">
-<span class="q-num-badge">3. 自給自足家族 ①</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">3. 關於豐田市「自給自足家族」的地方實踐：<br/>①. 面對天災帶來的農業風險，都市的年輕人一開始是如何幫助農村長輩分擔風險的？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 5 章第 3 節「5-3 實踐案例：自然塾與家園共學」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">透過「預付生產資金預購稻米 / 定期支持金」，共同分擔天災歉收之農損風險</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_3_1', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_3_1', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_3_1', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 5 章實踐案例「5-3 實踐案例：自然塾與家園共學」（07:48-08:29）。日本愛知縣豐田市農村長輩面對氣候極端化與天災風險，常因擔憂稻作欠收而不敢繼續耕作。都市的年輕家庭透過「自給自足家族」機制，採取「預先支付定額支持金（預付費用／定額保證認購）」的方式。即使面臨颱風、豪雨天災導致收成不好，都市年輕人依然全額承擔風險，讓農村長者得以安心投入無毒耕作。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('透過「預付生產資金預購稻米」，共同分擔天災農損風險')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="5" id="card_3_2">
-<div class="q-header">
-<span class="q-num-badge">3. 自給自足家族 ②</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">3. 關於豐田市「自給自足家族」的地方實踐：<br/>②. 雙方的關係後來發生了什麼最具價值的昇華，超越了單純的買賣關係？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 5 章第 3 節「5-3 實踐案例：自然塾與家園共學」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">昇華為「第二故鄉家人 / 模擬家族 (擬似家族) / 超越血緣的互助親人夥伴關係」</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_3_2', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_3_2', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_3_2', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 5 章實踐案例「5-3 實踐案例：自然塾與家園共學」（06:21-07:04）。豐田市自給家族的運作超越了單純的買賣交易，昇華為「宛如一家人的家族親情共同體（虛擬家族／世代互助群）」。當都市年輕人在職場疲倦時，農村長輩邀請他們回鄉吃飯休養；而都市小孩在長假期間則被送到鄉村長輩家中體驗農耕生活，雙方建立起深厚的精神羈絆與跨地域共生網絡。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('昇華為「第二故鄉家人 / 模擬家族 (擬似家族) / 超越血緣的互助親人關係」')">📋 複製標準答案</button>
-</div>
-</div>
-<!-- 4. 社區的「甜甜圈理論」 -->
-<div class="q-card sec-short" data-max="5" id="card_4_1">
-<div class="q-header">
-<span class="q-num-badge">4. 甜甜圈理論 ①</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">4. 關於社區的「甜甜圈理論」：<br/>①. 將社區各項獨立的經濟、文化與福利功能比喻為甜甜圈本體，那麼貫穿中間的「洞」是指什麼？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 3 章第 2 節「3-2 非學習與日常生活再發現」＆ 0-2 牧野篤師資介紹</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">橫向貫穿整合一切的【學習 (Learning)】！</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_4_1', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_4_1', 2, this)">部分 (+2)</button>
-<button class="g-btn zero" onclick="grade('card_4_1', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 3 章「3-2 非學習與日常生活再發現」（19:48-20:13）及牧野篤教授師資總綱。牧野篤教授提出的社區「甜甜圈理論」中，實體的醫療、長照、經濟與社會福利等專業服務構成了甜甜圈扎實的周邊糕體；而貫穿正中間的「洞（空白處）」，代表的是「自主學習、行政留白與居民自在交往的人際互動場域」。唯有中間的留白空間被日常生活交流填滿，整座社區才能產生有機的生命力。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('橫向貫穿整合一切的【學習 (Learning)】')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="5" id="card_4_2">
-<div class="q-header">
-<span class="q-num-badge">4. 甜甜圈理論 ②</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">4. 關於社區的「甜甜圈理論」：<br/>②. 如果社區缺乏了這個「洞」，各項福利與地方創生計畫往往會呈現何種負面狀態？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 3 章第 2 節「3-2 非學習與日常生活再發現」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">呈現「空洞化、各自為政、碎片化，淪為缺乏靈魂與橫向串聯的表面行政 KPI 標案」</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_4_2', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_4_2', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_4_2', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 3 章「3-2 非學習與日常生活再發現」（20:01-20:07）。若社區缺乏中間「以人為本、以學習與互動為核心」的留白空間，各項福利與地方創生計畫往往會呈現「空洞化、本位主義、片段割裂與各自為政」的負面困境。居民退化為被動的服務接受者與依賴者，政府砸下大量資源卻無法真正接地氣，計畫難以永續維持。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('呈現「空洞化、各自為政、碎片化，淪為缺乏靈魂與橫向串聯的表面行政 KPI 標案」')">📋 複製標準答案</button>
-</div>
-</div>
-<!-- 5. 「彩虹眷村」的在地案例 -->
-<div class="q-card sec-short" data-max="5" id="card_5_1">
-<div class="q-header">
-<span class="q-num-badge">5. 彩虹眷村 ①</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">5. 關於「彩虹眷村」的在地案例：<br/>①. 黃爺爺在面臨老戰友搬遷、感到孤單時，是透過什麼方式重新找回生命的主導權與社會認可？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 6 章第 5 節「6-5 Taiwan 幸福處方」</span>
-<span>(講授名師：廖紋淑 老師、牧野篤 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">拿起畫筆在眷村牆面與地面彩繪創作（塗鴉素人藝術自主實踐）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_5_1', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_5_1', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_5_1', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 6 章在地實踐「6-5 Taiwan 幸福處方」（00:23-01:44 台中南屯彩虹眷村走訪）。退伍老榮民黃永阜爺爺（彩虹爺爺）面臨老鄰居紛紛搬遷、同袍凋零的深沉孤寂，在眷村面臨拆遷命運之際，他選擇拿起「畫筆」，以純真童趣的線條與大膽奔放的色彩彩繪牆面。透過畫筆塗鴉的藝術實踐，他重新奪回了生命的主導權，將殘破廢墟翻轉為享譽國際的心靈新故鄉。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('拿起畫筆在眷村牆面與地面彩繪創作（塗鴉素人藝術實踐）')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="5" id="card_5_2">
-<div class="q-header">
-<span class="q-num-badge">5. 彩虹眷村 ②</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">5. 關於「彩虹眷村」的在地案例：<br/>②. 街頭藝人彩虹超人每遇到一位遊客，都會親手遞上一張寫著什麼溫馨話語的卡片，傳遞正能量？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 6 章第 5 節「6-5 Taiwan 幸福處方」</span>
-<span>(講授名師：廖紋淑 老師、牧野篤 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">寫滿鼓勵、夢想與溫暖祝願的「正能量夢想祝福小卡片」</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_5_2', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_5_2', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_5_2', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 6 章在地實踐「6-5 Taiwan 幸福處方」（10:07-10:35）。進駐彩虹眷村的街頭藝人「彩虹超人」，透過音樂、熱情與親手遞送的「溫馨手寫祝福字卡（傳遞如『祝你平安幸福』、『堅持夢想』、『相信自己』等正向金句）」，打破陌生隔閡，為參訪旅客帶來力量與感動，展現台灣跨世代在共創空間中傳遞正能量的實踐魅力。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('寫滿鼓勵、夢想與溫暖祝願的「正能量夢想祝福卡片」')">📋 複製標準答案</button>
-</div>
-</div>
-<!-- 6. 「社會處方箋」與健康防護網 -->
-<div class="q-card sec-short" data-max="5" id="card_6_1">
-<div class="q-header">
-<span class="q-num-badge">6. 社會處方箋 ①</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">6. 關於「社會處方箋」與健康防護網：<br/>①. 現代醫療界為了解決高齡孤立，提倡開立「社會處方箋」，其核心作法是協助高齡者建立什麼？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 4 章第 1 節「4-1 實踐學習理論與政策推進」＆ 第 4 章第 6 節「4-6 Makino 幸福迴響」</span>
-<span>(講授名師：廖紋淑 老師、牧野篤 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">建立「非藥物性、非醫療的社會連結與社群支持網絡」（如社區學習、藝術、園藝、志工參與）</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_6_1', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_6_1', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_6_1', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自第 4 章「4-1 實踐學習理論與政策推進」與「4-6 Makino 幸福迴響」（00:24）。「社會處方箋（Social Prescribing）」是現代公共衛生與社區醫學的重要創新。面對孤立無援導致的身心退化，醫師不再只開立傳統化學藥丸，而是轉介高齡者參與社區大學、園藝植栽、藝術手作、運動社團或志工服務，其核心目的在於協助高齡者建立「緊密的社會連結（Social Connectedness）與人際支持網絡」。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('建立「非藥物性、非醫療的社會連結與社群支持網絡」')">📋 複製標準答案</button>
-</div>
-</div>
-<div class="q-card sec-short" data-max="5" id="card_6_2">
-<div class="q-header">
-<span class="q-num-badge">6. 社會處方箋 ②</span>
-<span class="q-points">配分 5 分</span>
-</div>
-<div class="q-text">6. 關於「社會處方箋」與健康防護網：<br/>②. 根據長達 11 年的追蹤研究，男性高齡者在什麼情況下其死亡危險度會顯著增加 1.47 倍？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 4 章第 6 節「4-6 Makino 幸福迴響」</span>
-<span>(講授名師：牧野篤 老師)</span>
-</div>
-<div class="ans-box">
-<div class="ans-label">🎯 空大官方標準答案</div>
-<div class="ans-core">處於【孤食（獨自進食）】的生活狀態！</div>
-</div>
-<div class="grading-widget">
-<span class="grading-title">對答案評分：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_6_2', 5, this)">滿分 (+5)</button>
-<button class="g-btn half" onclick="grade('card_6_2', 3, this)">部分 (+3)</button>
-<button class="g-btn zero" onclick="grade('card_6_2', 0, this)">未答 (+0)</button>
-</div>
-</div>
-<div class="details-toggle" onclick="toggleDetails(this)">
-<span>📖 查看空大官方逐字稿解析與出處</span><span>▼</span>
-</div>
-<div class="details-content">本題出自「4-6 Makino 幸福迴響」（03:40-04:14）。牧野篤教授引述日本針對 14,000 多名高齡者長達 11 年的嚴謹大型追蹤研究。結果顯示：當高齡男性「與家人同住，但因家庭疏離而獨自一人吃飯（孤食）」時，其死亡危險度高達 1.47 倍（具備顯著統計學意義）。研究明確指出：缺乏家庭溫暖的人際互動是身心健康最隱形的殺手，走入社區共食與社交是延年益壽的關鍵。</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns('處於【孤食（獨自進食）】的生活狀態')">📋 複製標準答案</button>
-</div>
-</div>
-<!-- ==================== 申論題 40% ==================== -->
-<div class="section-title-card sec-essay">
-<h2>二、申論題 40% (共 2 題，每題 20 分，共 40 分)</h2>
-<span class="score-tag">說明：請依據課程理論，結合您豐富的人生經驗進行深思作答。每題作答字數約 200-300 字。</span>
-</div>
-<!-- 申論第 1 題 ① -->
-<div class="q-card essay-card sec-essay" data-max="10" id="card_e_1_1">
-<div class="q-header">
-<span class="q-num-badge">申論第 1 題 ①</span>
-<span class="q-points">配分 10 分</span>
-</div>
-<div class="q-text">1. 【從佔有到存在：生活微實驗】(每小題 10 分，共 20 分)：<br/>①. 請說明 PDCA 與 AAR 在生活學習心態上的主要差異？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 5 章第 4 節「5-4 Makino 幸福講堂」＆ 第 5 章第 6 節「5-6 Makino 幸福迴響」＆ 第 6 章第 1 節「6-1 AAR學習模型」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-label">🎯 五點骨架滿分擬答範文（約 240 字）</div>
-<div class="essay-sample">
-        PDCA（Plan-Do-Check-Act）源自工業品質管理，本質屬於「佔有模式 (Having Mode)」，其學習心態以「目標控制、消除偏差、追求唯一標準答案」為導向，強調對流程與成果的嚴格掌控，易使個體陷入害怕失敗與追求完美的焦慮。<br/><br/>
-        相對地，AAR（Anticipation 預期 ➔ Action 行動 ➔ Reflection 反思）屬於「存在模式 (Being Mode)」，以好奇心與關懷為起點，不設嚴苛指標。它將生活視為低壓的「自我實驗」，鼓勵接納不確定性，將焦點從「控制結果」轉向「深層體驗、在做中學與自我覺察」，在經驗反思中活出寬廣的生命厚度。
-      </div>
-<div class="grading-widget">
-<span class="grading-title">申論評分（對比Having/Being、AAR三要素給分）：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_e_1_1', 10, this)">滿分 (+10)</button>
-<button class="g-btn half" onclick="grade('card_e_1_1', 7, this)">良 (+7)</button>
-<button class="g-btn zero" onclick="grade('card_e_1_1', 4, this)">及格 (+4)</button>
-</div>
-</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns(`PDCA（Plan-Do-Check-Act）源自工業品質管理，本質屬於「佔有模式 (Having Mode)」，其學習心態以「目標控制、消除偏差、追求唯一標準答案」為導向，強調對流程與成果的嚴格掌控，易使個體陷入害怕失敗與追求完美的焦慮。
-相對地，AAR（Anticipation 預期 ➔ Action 行動 ➔ Reflection 反思）屬於「存在模式 (Being Mode)」，以好奇心與關懷為起點，不設嚴苛指標。它將生活視為低壓的「自我實驗」，鼓勵接納不確定性，將焦點從「控制結果」轉向「深層體驗、在做中學與自我覺察」，在經驗反思中活出寬廣的生命厚度。`)">📋 複製申論擬答</button>
-</div>
-</div>
-<!-- 申論第 1 題 ② -->
-<div class="q-card essay-card sec-essay" data-max="10" id="card_e_1_2">
-<div class="q-header">
-<span class="q-num-badge">申論第 1 題 ②</span>
-<span class="q-points">配分 10 分</span>
-</div>
-<div class="q-text">1. 【從佔有到存在：生活微實驗】(每小題 10 分，共 20 分)：<br/>②. 分享您在第三人生想嘗試的一項「生活微實驗(AAR)」是什麼？您期望透過這個實驗獲得怎樣的「存在價值」？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 1 章第 1 節「1-1 社會變遷與個體學習」＋ 第 6 章第 1 節「6-1 AAR學習模型與學習的新向度」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-label">🎯 個人實踐滿分擬答範文（約 270 字）</div>
-<div class="essay-sample">
-        我在第三人生想啟動名為「每週三巷弄手作木工交流」的生活微實驗。預期目標並非生產商品販售，而是每週三下午將自家車庫空間稍微打開（住み開き），邀請社區 2 位青年一同修繕舊木椅。<br/><br/>
-        透過 AAR 反思實踐：實際動手時，青年更渴望的是放鬆減壓與對話；落差在於原本我預期傳授手藝，實際卻演變為傾聽心聲與人生經驗交流。我學會放下說教，享受純粹陪伴。<br/><br/>
-        這項實驗帶給我的「存在價值」，在於擺脫了過去職場上追逐名利的「佔有欲望 (Having)」，轉化為在當下與他人真誠交會的「存在欲望 (Being)」，感受到自己的歲月智慧能成為他人的避風港，重獲主體尊嚴。
-      </div>
-<div class="grading-widget">
-<span class="grading-title">申論評分（具體微實驗、AAR反思、存在價值給分）：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_e_1_2', 10, this)">滿分 (+10)</button>
-<button class="g-btn half" onclick="grade('card_e_1_2', 7, this)">良 (+7)</button>
-<button class="g-btn zero" onclick="grade('card_e_1_2', 4, this)">及格 (+4)</button>
-</div>
-</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns(`我在第三人生想啟動名為「每週三巷弄手作木工交流」的生活微實驗。預期目標並非生產商品販售，而是每週三下午將自家車庫空間稍微打開（住み開き），邀請社區 2 位青年一同修繕舊木椅。
-透過 AAR 反思實踐：實際動手時，青年更渴望的是放鬆減壓與對話；落差在於原本我預期傳授手藝，實際卻演變為傾聽心聲與人生經驗交流。我學會放下說教，享受純粹陪伴。
-這項實驗帶給我的「存在價值」，在於擺脫了過去職場上追逐名利的「佔有欲望 (Having)」，轉化為在當下與他人真誠交會的「存在欲望 (Being)」，感受到自己的歲月智慧能成為他人的避風港，重獲主體尊嚴。`)">📋 複製申論擬答</button>
-</div>
-</div>
-<!-- 申論第 2 題 ① -->
-<div class="q-card essay-card sec-essay" data-max="10" id="card_e_2_1">
-<div class="q-header">
-<span class="q-num-badge">申論第 2 題 ①</span>
-<span class="q-points">配分 10 分</span>
-</div>
-<div class="q-text">2. 【化解孤立：成為別人的新故鄉】(每小題 10 分，共 20 分)：<br/>①. 請說明日本的「小雞蛋計畫」為何能讓長輩重拾「被需要感」與尊嚴？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 2 章第 3 節「2-3 實踐案例：南房總的小屋」</span>
-<span>(講授名師：牧野篤 老師、廖紋淑 老師)</span>
-</div>
-<div class="ans-label">🎯 五點骨架滿分擬答範文（約 250 字）</div>
-<div class="essay-sample">
-        日本「小雞蛋計畫」安排日間照顧機構的長輩走入托兒所，負責照顧幼兒或守護象徵新生的小雞蛋。其核心價值在於徹底顛覆了傳統長照中「長輩＝被動受助者與社會負擔」的負面標籤。<br/><br/>
-        當長輩被賦予實質的守護責任時，深刻激活了艾瑞克森（Erikson）所述「關懷下一代 (Generativity / 世代傳承)」的心靈本質。長輩體會到「自己依然有能力給予、社會依然需要我」，從無力的依賴者蛻變為守護幼苗的貢獻者。這種強烈的「被需要感」與輪到自己發揮的「出場舞台 (出番 Deban)」，能有效預防高齡憂鬱，重拾生命的自豪與尊嚴。
-      </div>
-<div class="grading-widget">
-<span class="grading-title">申論評分（顛覆受助者標籤、Generativity、被需要感）：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_e_2_1', 10, this)">滿分 (+10)</button>
-<button class="g-btn half" onclick="grade('card_e_2_1', 7, this)">良 (+7)</button>
-<button class="g-btn zero" onclick="grade('card_e_2_1', 4, this)">及格 (+4)</button>
-</div>
-</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns(`日本「小雞蛋計畫」安排日間照顧機構的長輩走入托兒所，負責照顧幼兒或守護象徵新生的小雞蛋。其核心價值在於徹底顛覆了傳統長照中「長輩＝被動受助者與社會負擔」的負面標籤。
-當長輩被賦予實質的守護責任時，深刻激活了艾瑞克森（Erikson）所述「關懷下一代 (Generativity / 世代傳承)」的心靈本質。長輩體會到「自己依然有能力給予、社會依然需要我」，從無力的依賴者蛻變為守護幼苗的貢獻者。這種強烈的「被需要感」與輪到自己發揮的「出場舞台 (出番 Deban)」，能有效預防高齡憂鬱，重拾生命的自豪與尊嚴。`)">📋 複製申論擬答</button>
-</div>
-</div>
-<!-- 申論第 2 題 ② -->
-<div class="q-card essay-card sec-essay" data-max="10" id="card_e_2_2">
-<div class="q-header">
-<span class="q-num-badge">申論第 2 題 ②</span>
-<span class="q-points">配分 10 分</span>
-</div>
-<div class="q-text">2. 【化解孤立：成為別人的新故鄉】(每小題 10 分，共 20 分)：<br/>②. 結合您歲月累積的「晶體智力」（如您的拿手好菜、特殊手藝或人生智慧），您未來想如何在社區中發揮力量，讓自己成為年輕世代心靈上溫暖的「新故鄉」？</div>
-<div class="chapter-badge">
-<span>📍【空大官方課程出處】：第 2 章第 1 節「2-1 長壽社會與多段式人生」＋ 第 6 章第 5 節「6-5 Taiwan 幸福處方」</span>
-<span>(講授名師：廖紋淑 老師、牧野篤 老師)</span>
-</div>
-<div class="ans-label">🎯 個人實踐滿分擬答範文（約 275 字）</div>
-<div class="essay-sample">
-        心理學家卡特爾（Cattell）指出，「晶體智力」是隨年齡增長而淬鍊的生活智慧與人際同理力。我計畫結合自身數十年累積的「節氣家常料理」與「職涯轉折心理調適經驗」，在社區活動中心創辦「解憂食光交流小食堂」。<br/><br/>
-        每週末邀請異鄉打拼的年輕租屋族一同做菜共餐，在香氣中溫柔傾聽青年在職場上的挫折與迷惘。我不以長輩權威下定論，而是以真誠的「共感 (Compassion)」分享過往低潮的生命軌跡。<br/><br/>
-        透過一頓飯的溫暖陪伴，讓疲憊的年輕人在異鄉隨時有溫暖靠山，實踐「無條件善意循環 (恩送 おんおくり)」，讓自己成為年輕世代心靈上隨時能停泊的「新故鄉」。
-      </div>
-<div class="grading-widget">
-<span class="grading-title">申論評分（結合晶體智力、新故鄉、共感陪伴傾聽）：</span>
-<div class="grading-btns">
-<button class="g-btn full" onclick="grade('card_e_2_2', 10, this)">滿分 (+10)</button>
-<button class="g-btn half" onclick="grade('card_e_2_2', 7, this)">良 (+7)</button>
-<button class="g-btn zero" onclick="grade('card_e_2_2', 4, this)">及格 (+4)</button>
-</div>
-</div>
-<div style="text-align:right;margin-top:8px;">
-<button class="copy-btn" onclick="copyAns(`心理學家卡特爾（Cattell）指出，「晶體智力」是隨年齡增長而淬鍊的生活智慧與人際同理力。我計畫結合自身數十年累積的「節氣家常料理」與「職涯轉折心理調適經驗」，在社區活動中心創辦「解憂食光交流小食堂」。
-每週末邀請異鄉打拼的年輕租屋族一同做菜共餐，在香氣中溫柔傾聽青年在職場上的挫折與迷惘。我不以長輩權威下定論，而是以真誠的「共感 (Compassion)」分享過往低潮的生命軌跡。
-透過一頓飯的溫暖陪伴，讓疲憊的年輕人在異鄉隨時有溫暖靠山，實踐「無條件善意循環 (恩送 おんおくり)」，讓自己成為年輕世代心靈上隨時能停泊的「新故鄉」。`)">📋 複製申論擬答</button>
-</div>
-</div>
-</div>
-<div class="toast" id="toast">已複製答案到剪貼簿！</div>
-<script>
-    const userGrades = {};
 
-    function grade(cardId, pts, btn) {
+  <!-- Top Sticky Header -->
+  <header class="top-header">
+    <div class="header-left">
+      <span class="logo-badge">空大期末考</span>
+      <span class="header-title">人生 100 幸福處方箋・線上對答案系統</span>
+    </div>
+    <div class="header-actions">
+      <button class="theme-toggle-btn" onclick="toggleTheme()">
+        <span id="theme-icon">🌓</span> 切換主題
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Paper Header Card -->
+    <div class="paper-info-card">
+      <div class="paper-meta-top">
+        <div>
+          <span class="honor-badge">榮譽第一</span> │ 
+          <span>※ 考試時間請關閉手機，手機鈴響，依規定扣分</span>
+        </div>
+        <div>
+          <span>一律橫式作答</span> │ <span>共 1 頁</span>
+        </div>
+      </div>
+      <h1 class="paper-main-title">
+        國立空中大學 115 學年度暑期期末考試題
+        <span class="code-badge">【正題】001</span>
+      </h1>
+      <div class="paper-sub-meta">
+        <strong>科目代碼與名稱：</strong>人生 100 幸福處方箋 ｜ <strong>題型規範：</strong>簡答題 60% ＋ 申論題 40% (滿分 100 分)
+      </div>
+      <div class="paper-notice">
+        <strong>📌 考卷作答注意事項：</strong>本試卷嚴禁於卷面上作答，所有答案請依題號標示，並完整書寫於「答案紙（卷）」上。每大題內含數小題，本系統已依試卷規格<strong>按大題分組、小題清楚標示，提供分別對答案、估分與逐字稿查核</strong>！
+      </div>
+    </div>
+
+    <!-- Quick Navigation Tabs -->
+    <div class="nav-tabs-wrapper">
+      <span class="nav-label-tag">⚡ 快速跳轉：</span>
+      <a href="#bq_1" class="nav-chip">第 1 大題 (5小題)</a>
+      <a href="#bq_2" class="nav-chip">第 2 大題 (2小題)</a>
+      <a href="#bq_3" class="nav-chip">第 3 大題 (2小題)</a>
+      <a href="#bq_4" class="nav-chip">第 4 大題 (2小題)</a>
+      <a href="#bq_5" class="nav-chip">第 5 大題 (2小題)</a>
+      <a href="#bq_6" class="nav-chip">第 6 大題 (2小題)</a>
+      <a href="#bq_e1" class="nav-chip essay-chip">申論第 1 題 (2小題)</a>
+      <a href="#bq_e2" class="nav-chip essay-chip">申論第 2 題 (2小題)</a>
+      <a href="#answer_sheet_sec" class="nav-chip" style="border-color: var(--gold); color: var(--gold);">📄 答案紙完整格式</a>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="filter-wrapper">
+      <button class="filter-btn active" onclick="filterItems('all')">📑 顯示全卷題目 (100分 / 19小題)</button>
+      <button class="filter-btn" onclick="filterItems('short')">✏️ 一、簡答題 60% (6大題 / 15小題)</button>
+      <button class="filter-btn" onclick="filterItems('essay')">📝 二、申論題 40% (2大題 / 4小題)</button>
+    </div>
+
+    <!-- ===== 一、簡答題 60% ===== -->
+    <div class="section-divider-card sec-short">
+      <div>
+        <div class="section-main-title">一、簡答題 60%</div>
+        <div class="section-desc">共 6 大題，每大題 10 分，共 60 分 ｜ 說明：請簡短回答下列各子題。答出核心觀點或名詞即可。</div>
+      </div>
+      <div class="section-score-badge">配分 60 分</div>
+    </div>
+
+    <!-- SHORT QUESTIONS RENDER PLACEHOLDER -->
+    
+    <!-- 第 1 大題 -->
+    <div class="big-q-card sec-short" id="bq_1">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">第 1 大題</span>
+          <span class="big-q-title-text">關於本課程提到的核心觀念</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 5 小題，每小題 2 分，大題滿分 10 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_1_score">0</span> / 10 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_1_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ①】</span>
+            <span class="sub-q-points">配分 2 分</span>
+          </div>
+          <div class="sub-q-text">經濟發展到一定水準後，人們對生活的滿足感反而開始下降，這在學術上稱為什麼理論？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">伊斯特林悖論（Easterlin Paradox，又稱「幸福悖論」）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 1 章第 1 節「1-1 社會變遷與個體學習」（07:47-08:23）＆ 第 1 章第 6 節「1-6 Makino 幸福迴響」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">由經濟學家理查・伊斯特林（Richard Easterlin）提出。牧野篤教授指出：當人均所得與物質生活達到一定水準後（日本以 1984 年為分水嶺），物質的累積對主觀幸福感與滿足感的邊際效應開始遞減。這標誌著現代社會從追求物質名利的「佔有慾望（Having）」轉變為追求人際連結與自我價值的「存在慾望（Being）」。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_1', 'card_1_1', 2, this)">滿分 (+2)</button>
+            <button class="g-btn half" onclick="grade('bq_1', 'card_1_1', 1, this)">部分 (+1)</button>
+            <button class="g-btn zero" onclick="grade('bq_1', 'card_1_1', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`伊斯特林悖論（Easterlin Paradox，又稱「幸福悖論」）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_1_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ②】</span>
+            <span class="sub-q-points">配分 2 分</span>
+          </div>
+          <div class="sub-q-text">傳統教室「老師站高台、學生排排坐」的空間設計，隱含了源自工業社會的什麼思想？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">工廠流水線規訓與標準化勞動力思想（或答：階層化監控 / 圓形監獄思想、工廠大批量規格化複製思想）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 3 章第 1 節「3-1 近代學校制度的形成與限制」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">近代學校制度源於 19 世紀工業革命時期的工廠生產模式，教室採「講台高高在上、課桌排排坐朝向前方」，本質上複製了工廠流水線的「標準化、階層化監控（圓形監獄規訓）與大批量規格化複製」，旨在培養規格一致的勞動力，嚴重壓抑了個別差異與百歲長壽社會所需的終身自主探索力。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_1', 'card_1_2', 2, this)">滿分 (+2)</button>
+            <button class="g-btn half" onclick="grade('bq_1', 'card_1_2', 1, this)">部分 (+1)</button>
+            <button class="g-btn zero" onclick="grade('bq_1', 'card_1_2', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`工廠流水線規訓與標準化勞動力思想（或答：階層化監控 / 圓形監獄思想、工廠大批量規格化複製思想）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_1_3">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ③】</span>
+            <span class="sub-q-points">配分 2 分</span>
+          </div>
+          <div class="sub-q-text">根據研究，決定現代人幸福感前三大因素中，取代「金錢與學歷」的第三大要素是什麼？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">【自我決定（Self-Determination，或答：自我決定感 / 自主性 / 自主選擇權）】</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 1 章第 6 節「1-6 Makino 幸福迴響」（03:16-04:02）＆ 第 4 章第 2 節「4-2 學習社會重構與地方創生」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">牧野篤教授引述大型國民幸福感調查明確指出：決定現代人主觀幸福感的前三大要素為「第一位：健康」、「第二位：良好的人際關係」；而過去位居第三位的「高學歷與高年收入（金錢與學歷）」已被「自我決定（Self-Determination）」所取代。能否自主決定自己的生活方式、展現自身價值並獲得社會認可，是現代人幸福與否的關鍵。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_1', 'card_1_3', 2, this)">滿分 (+2)</button>
+            <button class="g-btn half" onclick="grade('bq_1', 'card_1_3', 1, this)">部分 (+1)</button>
+            <button class="g-btn zero" onclick="grade('bq_1', 'card_1_3', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`【自我決定（Self-Determination，或答：自我決定感 / 自主性 / 自主選擇權）】`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_1_4">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ④】</span>
+            <span class="sub-q-points">配分 2 分</span>
+          </div>
+          <div class="sub-q-text">將別人的困難與痛苦視為自己的事，並主動給予幫助，這種人類的美好本質稱為什麼？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">共感 / 慈悲心（Compassion，或答：利他之心 / 同理共好 / 側旁伴走精神）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 3 章第 4 節「3-4 Makino 幸福講堂」（00:40-01:29）＆ 第 6 章第 4 節「6-4 Makino 幸福講堂」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">Compassion 由拉丁字根組成，本義為「將他人的痛苦與悲哀，視為自己本身的痛苦與悲哀」，進而願意主動給予幫助、陪伴走在一起。牧野篤教授指出，這是人類在「存在慾望（Being）」社會中最核心的美好本質，也是建構「共感社區（Compassionate Community）」與互助網絡的深層基石。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_1', 'card_1_4', 2, this)">滿分 (+2)</button>
+            <button class="g-btn half" onclick="grade('bq_1', 'card_1_4', 1, this)">部分 (+1)</button>
+            <button class="g-btn zero" onclick="grade('bq_1', 'card_1_4', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`共感 / 慈悲心（Compassion，或答：利他之心 / 同理共好 / 側旁伴走精神）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_1_5">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ⑤】</span>
+            <span class="sub-q-points">配分 2 分</span>
+          </div>
+          <div class="sub-q-text">隨著年齡增長，越來越渴望去守護、培育下一代的情感本質，稱為什麼？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">世代傳承感 / 關懷下一代本質（Generativity，或譯：繁衍感 / 生生不息 / 創發性）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 6 章第 2 節「6-2 Generativity與世代傳承的智慧」＆ 第 6 章第 4 節「6-4 Makino 幸福講堂」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">源自心理學家艾瑞克森（Erikson）的生命週期理論。成熟個體進入中高齡後，內在會自然湧現關懷社會、守護培育下一代的心理本能（Generativity）。透過經驗傳承與提攜青年（無條件恩送 Pay it forward），長輩能擺脫高齡自我停滯與無用感，邁向「老年期超越（Gerotranscendence）」的圓滿幸福。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_1', 'card_1_5', 2, this)">滿分 (+2)</button>
+            <button class="g-btn half" onclick="grade('bq_1', 'card_1_5', 1, this)">部分 (+1)</button>
+            <button class="g-btn zero" onclick="grade('bq_1', 'card_1_5', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`世代傳承感 / 關懷下一代本質（Generativity，或譯：繁衍感 / 生生不息 / 創發性）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- 第 2 大題 -->
+    <div class="big-q-card sec-short" id="bq_2">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">第 2 大題</span>
+          <span class="big-q-title-text">關於人口轉型與跨世代對話</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 5 分，大題滿分 10 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_2_score">0</span> / 10 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_2_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ①】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">社會從過去的「多生多死」轉向「少生少死」，請問這裡的「少死」，是指在醫療與生活進步下，現在的人出生後普遍都能如何？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">平安長大、活到高齡／安享天年（或答：幾乎人人出生後都能平安長大、普遍活到 80~100 歲）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 2 章第 1 節「2-1 長壽社會與多段式人生」（13:05）＆ 第 2 章第 6 節「2-6 Makino 幸福迴響」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">過去傳統社會因醫療落後，嬰幼兒夭折率極高（多生多死）；而現代在公衛醫療進步下進入「少生少死」，「少死」的精確學術意涵是指「嬰幼兒夭折率極低，每個人出生後幾乎普遍都能順利平安長大、活到天年（活到 80 歲、90 歲甚至百歲）」，人口年齡結構徹底從錐型金字塔翻轉為直立長方柱型。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_2', 'card_2_1', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_2', 'card_2_1', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_2', 'card_2_1', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`平安長大、活到高齡／安享天年（或答：幾乎人人出生後都能平安長大、普遍活到 80~100 歲）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_2_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ②】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">日本益田市舉辦了跨世代對話。長輩們在對話中大方分享了自己真實的什麼經歷，成功打破了年輕人覺得長輩無聊的偏見？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">年輕時真實走過的「失敗經歷 / 挫折出糗與人生迷惘經歷」（語りの場 Katari 人生地圖）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 3 章第 3 節「3-3 實踐案例：人生百歲俱樂部」（08:07-10:00）</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">牧野篤教授親身指導日本島根縣益田市的跨世代對話場。長輩不再由上而下单向灌輸鄉土歷史，而是繪製自己的人生軌跡地圖，大方分享年輕時「曾經走過的彎路、犯過的錯誤、挫折與迷惘」。國高中生驚喜發現「原來大人以前也跟我一樣會困惑迷惘」，大人的人生充滿真實魅力與借鏡價值，徹底瓦解了「長輩很無聊、沒有價值」的刻板偏見。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_2', 'card_2_2', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_2', 'card_2_2', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_2', 'card_2_2', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`年輕時真實走過的「失敗經歷 / 挫折出糗與人生迷惘經歷」（語りの場 Katari 人生地圖）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- 第 3 大題 -->
+    <div class="big-q-card sec-short" id="bq_3">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">第 3 大題</span>
+          <span class="big-q-title-text">關於豐田市「自給自足家族」的地方實踐</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 5 分，大題滿分 10 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_3_score">0</span> / 10 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_3_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ①】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">面對天災帶來的農業風險，都市的年輕人一開始是如何幫助農村長輩分擔風險的？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">透過「預先支付定額費用（預付資金 / 定期支持金保證認購）」，共同分擔颱風豪雨等天災歉收風險</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 5 章第 3 節「5-3 實踐案例：自然塾與家園共學」（07:48-08:29）</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">日本愛知縣豐田市農村長輩年歲已高，若遭遇颱風或氣候天災導致農損，往往無力承擔。都市年輕家庭透過「自給自足家族」制度，預先支付一整年的固定耕作費用。即使遇到颱風或天災歉收，都市年輕人依然照常支持，讓農民無後顧之憂，安心守護土地與無毒農耕。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_3', 'card_3_1', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_3', 'card_3_1', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_3', 'card_3_1', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`透過「預先支付定額費用（預付資金 / 定期支持金保證認購）」，共同分擔颱風豪雨等天災歉收風險`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_3_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ②】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">雙方的關係後來發生了什麼最具價值的昇華，超越了單純的買賣關係？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">昇華為「如同一家人的家族親情共同體（第二故鄉親人 / 虛擬家族互助夥伴）」，跨越城鄉的情感羈絆</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 5 章第 3 節「5-3 實踐案例：自然塾與家園共學」（06:21-07:04）</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">這套機制超越了金錢交易，農村長輩將都市年輕人視為兒女，在都市生活疲憊時歡迎他們回鄉吃飯休養；都市父母也把孩子在寒暑假送到鄉村長輩家體驗農耕。長輩重獲孫兒陪伴的溫暖，年輕人找到心靈故鄉，昇華為宛如親人般的共同體情感。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_3', 'card_3_2', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_3', 'card_3_2', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_3', 'card_3_2', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`昇華為「如同一家人的家族親情共同體（第二故鄉親人 / 虛擬家族互助夥伴）」，跨越城鄉的情感羈絆`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- 第 4 大題 -->
+    <div class="big-q-card sec-short" id="bq_4">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">第 4 大題</span>
+          <span class="big-q-title-text">關於社區的「甜甜圈理論」</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 5 分，大題滿分 10 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_4_score">0</span> / 10 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_4_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ①】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">將社區各項獨立的經濟、文化與福利功能比喻為甜甜圈本體，那麼貫穿中間的「洞」是指什麼？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">橫向貫穿整合一切的【自主學習（Learning）】與居民自由交流的「人際互動場域 / 行政留白」</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 3 章第 2 節「3-2 非學習與日常生活再發現」（19:48-20:13）＆ 0-2 牧野篤師資介紹</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">牧野篤教授提出的社區「甜甜圈理論」中，醫療、長照、產業經濟是周邊扎實的糕體；而貫穿中央的「洞」，正是「自主學習、日常生活人際互動與行政留白場域」。學習就像引擎底盤，只有保留中央的彈性空白讓居民自主產生連結，周邊政策才能有機運轉。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_4', 'card_4_1', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_4', 'card_4_1', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_4', 'card_4_1', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`橫向貫穿整合一切的【自主學習（Learning）】與居民自由交流的「人際互動場域 / 行政留白」`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_4_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ②】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">如果社區缺乏了這個「洞」，各項福利與地方創生計畫往往會呈現何種負面狀態？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">呈現「空洞化、無法落地、各自為政、碎片化（本位主義、被動依賴政府而缺乏內生動力）」</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 3 章第 2 節「3-2 非學習與日常生活再發現」（20:01-20:07）</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">若社區缺乏中間以學習與人際連結為核心的「洞」，各項公共福利與創生計畫將淪為「空洞的甜甜圈」，各部門各行其是、流於表面 KPI 指標。居民僅僅被動接受服務，一旦政府補助停止，計畫便瞬間瓦解，無法生根落地。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_4', 'card_4_2', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_4', 'card_4_2', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_4', 'card_4_2', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`呈現「空洞化、無法落地、各自為政、碎片化（本位主義、被動依賴政府而缺乏內生動力）」`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- 第 5 大題 -->
+    <div class="big-q-card sec-short" id="bq_5">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">第 5 大題</span>
+          <span class="big-q-title-text">關於「彩虹眷村」的在地案例</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 5 分，大題滿分 10 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_5_score">0</span> / 10 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_5_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ①】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">黃爺爺在面臨老戰友搬遷、感到孤單時，是透過什麼方式重新找回生命的主導權與社會認可？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">拿起「畫筆」在老舊眷村的房屋與巷道牆面彩繪塗鴉創作（素人藝術自主實踐）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 6 章第 5 節「6-5 Taiwan 幸福處方」（00:23-01:44）</span>
+            <span class="teacher-name">(講授名師：廖紋淑 老師、牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">面對鄰居同袍遷離與拆遷孤寂，退伍榮民黃永阜爺爺拿起畫筆，以豐富色彩與童趣圖騰彩繪牆面。透過藝術的能動性，他不僅成功保下了即將拆除的眷村，更讓廢墟蛻變為跨世代心靈停泊的景點，重新掌握生命主導權。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_5', 'card_5_1', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_5', 'card_5_1', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_5', 'card_5_1', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`拿起「畫筆」在老舊眷村的房屋與巷道牆面彩繪塗鴉創作（素人藝術自主實踐）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_5_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ②】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">街頭藝人彩虹超人每遇到一位遊客，都會親手遞上一張寫著什麼溫馨話語的卡片，傳遞正能量？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">親手遞上寫滿「正向鼓勵、夢想與溫暖祝願」的正能量祝福小卡片（如寫有「祝你平安幸福」、「堅持夢想」等字卡）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 6 章第 5 節「6-5 Taiwan 幸福處方」（10:07-10:35）</span>
+            <span class="teacher-name">(講授名師：廖紋淑 老師、牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">彩虹超人身著彩虹裝，透過音樂與熱情遞送手寫祝福字卡（如「祝你平安幸福」、「相信自己」、「勇敢追夢」），以真誠的互動連結打破陌生冷漠，為造訪遊客注入溫暖希望，展現台灣在地的美好人情。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_5', 'card_5_2', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_5', 'card_5_2', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_5', 'card_5_2', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`親手遞上寫滿「正向鼓勵、夢想與溫暖祝願」的正能量祝福小卡片（如寫有「祝你平安幸福」、「堅持夢想」等字卡）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- 第 6 大題 -->
+    <div class="big-q-card sec-short" id="bq_6">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">第 6 大題</span>
+          <span class="big-q-title-text">關於「社會處方箋」與健康防護網</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 5 分，大題滿分 10 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_6_score">0</span> / 10 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_6_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ①】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">現代醫療界為了解決高齡孤立，提倡開立「社會處方箋」，其核心作法是協助高齡者建立什麼？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">建立「非醫療、非藥物性的社會連結與社群人際支持網絡」（如社區大學、藝術、園藝、志工、共餐參與）</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 4 章第 1 節「4-1 實踐學習理論與政策推進」＆ 第 4 章第 6 節「4-6 Makino 幸福迴響」（00:24）</span>
+            <span class="teacher-name">(講授名師：廖紋淑 老師、牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">「社會處方箋」突破了傳統唯醫藥論，醫師開立非醫療處方，轉介長者參與社區社團、樂齡學習、園藝手作或志工服務，核心目的在於重構高齡者的「社會連結（Social Connection）」，從根本消除孤立對身心免疫系統的傷害。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_6', 'card_6_1', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_6', 'card_6_1', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_6', 'card_6_1', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`建立「非醫療、非藥物性的社會連結與社群人際支持網絡」（如社區大學、藝術、園藝、志工、共餐參與）`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_6_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label">【小題 ②】</span>
+            <span class="sub-q-points">配分 5 分</span>
+          </div>
+          <div class="sub-q-text">根據長達 11 年的追蹤研究，男性高齡者在什麼情況下其死亡危險度會顯著增加 1.47 倍？</div>
+          
+          <div class="ans-box">
+            <div class="ans-label">🎯 空大官方標準答案（分別作答）</div>
+            <div class="ans-core">處於【與家人同住，但因家庭疏離而獨自一人吃飯（孤食）】的生活狀態！</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 4 章第 6 節「4-6 Makino 幸福迴響」（03:40-04:14）</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看空大官方逐字稿解析與核心考點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">牧野篤教授引述日本長達 11 年、追蹤數萬名長者的實證研究：最危險的並非單純獨居，而是「身在同一屋簷下，卻無人交談、獨自吃飯（孤食）」的高齡男性，其死亡危險度急遽飆升 1.47 倍（增加 47%，且具備顯著統計學意義）。走出家門共餐交流是救命處方！</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">對答案評分：</span>
+              
+            <button class="g-btn full" onclick="grade('bq_6', 'card_6_2', 5, this)">滿分 (+5)</button>
+            <button class="g-btn half" onclick="grade('bq_6', 'card_6_2', 3, this)">部分 (+3)</button>
+            <button class="g-btn zero" onclick="grade('bq_6', 'card_6_2', 0, this)">未答 (+0)</button>
+            
+            </div>
+            <button class="copy-btn" onclick="copyAns(`處於【與家人同住，但因家庭疏離而獨自一人吃飯（孤食）】的生活狀態！`)">📋 複製本題答案</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- ===== 二、申論題 40% ===== -->
+    <div class="section-divider-card essay-section sec-essay">
+      <div>
+        <div class="section-main-title">二、申論題 40%</div>
+        <div class="section-desc">共 2 題，每題 20 分，共 40 分 ｜ 說明：請依據課程理論，結合您豐富的人生經驗進行深思作答。每題作答字數約 200-300 字。</div>
+      </div>
+      <div class="section-score-badge" style="border-color: var(--purple); color: var(--purple);">配分 40 分</div>
+    </div>
+
+    <!-- ESSAY QUESTIONS RENDER PLACEHOLDER -->
+    
+    <!-- 申論第 1 大題 -->
+    <div class="big-q-card essay sec-essay" id="bq_e1">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">申論第 1 大題</span>
+          <span class="big-q-title-text">【從佔有到存在：生活微實驗】</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 10 分，大題滿分 20 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_e1_score">0</span> / 20 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_e_1_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label" style="background: rgba(188, 140, 255, 0.15); color: #bc8cff; border-color: rgba(188, 140, 255, 0.3);">【小題 ①】</span>
+            <span class="sub-q-points">配分 10 分 ｜ 建議 200-300 字</span>
+          </div>
+          <div class="sub-q-text">請說明 PDCA 與 AAR 在生活學習心態上的主要差異？</div>
+          
+          <div class="ans-box" style="background: rgba(188, 140, 255, 0.08); border-color: rgba(188, 140, 255, 0.3);">
+            <div class="ans-label" style="color: #bc8cff;">🎯 空大官方申論滿分擬答範文（分別作答）</div>
+            <div class="essay-sample">【滿分標準答案論述要點】
+1. PDCA（Plan-Do-Check-Act）：源自企業工業品質管制，本質為「佔有模式（Having Mode）」。其學習心態強調剛性目標達成、嚴格消除偏差與成果績效考核（KPI）。在日常生活中套用容易產生「追求完美、害怕犯錯」的沉重心理負擔。
+2. AAR（Anticipation 預見 ➔ Action 行動 ➔ Reflection 反思）：源自自主反思學習，本質為「存在模式（Being Mode）」。它將生活視為不怕失敗的「微實驗」，以好奇心出發，在行動中接納不確定性，並透過深層反思將經驗昇華為生命智慧，活出從容自主的生命歷程。</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 5 章第 4 節「5-4 Makino 幸福講堂」（01:32）＆ 第 5 章第 6 節「5-6 Makino 幸福迴響」＆ 第 6 章第 1 節「6-1 AAR學習模型」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看官方評分維度與寫作要點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">字數約 220 字。滿分關鍵在於精準對比 Having（佔有/控制/怕錯）與 Being（存在/體驗/反思）的哲學心態差異。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">申論自評給分：</span>
+              
+        <button class="g-btn full" onclick="grade('bq_e1', 'card_e_1_1', 10, this)">滿分 (+10)</button>
+        <button class="g-btn half" onclick="grade('bq_e1', 'card_e_1_1', 7, this)">良 (+7)</button>
+        <button class="g-btn half" onclick="grade('bq_e1', 'card_e_1_1', 4, this)">及格 (+4)</button>
+        <button class="g-btn zero" onclick="grade('bq_e1', 'card_e_1_1', 0, this)">未答 (+0)</button>
+        
+            </div>
+            <button class="copy-btn" onclick="copyAns(`【滿分標準答案論述要點】
+1. PDCA（Plan-Do-Check-Act）：源自企業工業品質管制，本質為「佔有模式（Having Mode）」。其學習心態強調剛性目標達成、嚴格消除偏差與成果績效考核（KPI）。在日常生活中套用容易產生「追求完美、害怕犯錯」的沉重心理負擔。
+2. AAR（Anticipation 預見 ➔ Action 行動 ➔ Reflection 反思）：源自自主反思學習，本質為「存在模式（Being Mode）」。它將生活視為不怕失敗的「微實驗」，以好奇心出發，在行動中接納不確定性，並透過深層反思將經驗昇華為生命智慧，活出從容自主的生命歷程。`)">📋 複製本小題擬答</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_e_1_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label" style="background: rgba(188, 140, 255, 0.15); color: #bc8cff; border-color: rgba(188, 140, 255, 0.3);">【小題 ②】</span>
+            <span class="sub-q-points">配分 10 分 ｜ 建議 200-300 字</span>
+          </div>
+          <div class="sub-q-text">分享您在第三人生想嘗試的一項「生活微實驗(AAR)」是什麼？您期望透過這個實驗獲得怎樣的「存在價值」？</div>
+          
+          <div class="ans-box" style="background: rgba(188, 140, 255, 0.08); border-color: rgba(188, 140, 255, 0.3);">
+            <div class="ans-label" style="color: #bc8cff;">🎯 空大官方申論滿分擬答範文（分別作答）</div>
+            <div class="essay-sample">【滿分個人實踐範文】
+我在第三人生想啟動名為「每週三巷弄手作木工交流」的生活微實驗。預期目標並非生產商品販售，而是每週三下午將自家車庫空間稍微打開（住み開き），邀請社區 2 位年輕人共同修繕舊木器。
+透過 AAR 反思：實際過程中，我發現年輕人更在乎的是動手過程中的減壓與對話；差異在於原本我設定「傳授手藝」，實際卻演變為「心靈傾聽與生命故事交流」；從中我學會放下長輩說教的預設，享受純粹陪伴。
+這項微實驗帶給我的「存在價值」，在於擺脫了過去職場上追逐名利與物質的「佔有心態」，轉化為在當下與另一個生命真誠交會的「存在體驗」。我深刻體會到自己的歲月經驗能成為年輕人的避風港，重塑自我生命的主體尊嚴與喜悅。</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 1 章第 1 節「1-1 社會變遷與個體學習」（Being存在價值）＋ 第 6 章第 1 節「6-1 AAR學習模型」</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看官方評分維度與寫作要點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">字數約 270 字。符合 200-300 字高分規範，完整涵蓋 AAR 循環、微實驗設計與存在價值（Being）昇華。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">申論自評給分：</span>
+              
+        <button class="g-btn full" onclick="grade('bq_e1', 'card_e_1_2', 10, this)">滿分 (+10)</button>
+        <button class="g-btn half" onclick="grade('bq_e1', 'card_e_1_2', 7, this)">良 (+7)</button>
+        <button class="g-btn half" onclick="grade('bq_e1', 'card_e_1_2', 4, this)">及格 (+4)</button>
+        <button class="g-btn zero" onclick="grade('bq_e1', 'card_e_1_2', 0, this)">未答 (+0)</button>
+        
+            </div>
+            <button class="copy-btn" onclick="copyAns(`【滿分個人實踐範文】
+我在第三人生想啟動名為「每週三巷弄手作木工交流」的生活微實驗。預期目標並非生產商品販售，而是每週三下午將自家車庫空間稍微打開（住み開き），邀請社區 2 位年輕人共同修繕舊木器。
+透過 AAR 反思：實際過程中，我發現年輕人更在乎的是動手過程中的減壓與對話；差異在於原本我設定「傳授手藝」，實際卻演變為「心靈傾聽與生命故事交流」；從中我學會放下長輩說教的預設，享受純粹陪伴。
+這項微實驗帶給我的「存在價值」，在於擺脫了過去職場上追逐名利與物質的「佔有心態」，轉化為在當下與另一個生命真誠交會的「存在體驗」。我深刻體會到自己的歲月經驗能成為年輕人的避風港，重塑自我生命的主體尊嚴與喜悅。`)">📋 複製本小題擬答</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- 申論第 2 大題 -->
+    <div class="big-q-card essay sec-essay" id="bq_e2">
+      <div class="big-q-header">
+        <div class="big-q-title-group">
+          <span class="big-q-num-tag">申論第 2 大題</span>
+          <span class="big-q-title-text">【化解孤立：成為別人的新故鄉】</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="big-q-meta-info">共 2 小題，每小題 10 分，大題滿分 20 分</span>
+          <span class="big-q-score-display">本題得分：<span id="bq_e2_score">0</span> / 20 分</span>
+        </div>
+      </div>
+      <div class="sub-q-list">
+    
+        <div class="sub-q-item" id="card_e_2_1">
+          <div class="sub-q-top">
+            <span class="sub-q-label" style="background: rgba(188, 140, 255, 0.15); color: #bc8cff; border-color: rgba(188, 140, 255, 0.3);">【小題 ①】</span>
+            <span class="sub-q-points">配分 10 分 ｜ 建議 200-300 字</span>
+          </div>
+          <div class="sub-q-text">請說明日本的「小雞蛋計畫」為何能讓長輩重拾「被需要感」與尊嚴？</div>
+          
+          <div class="ans-box" style="background: rgba(188, 140, 255, 0.08); border-color: rgba(188, 140, 255, 0.3);">
+            <div class="ans-label" style="color: #bc8cff;">🎯 空大官方申論滿分擬答範文（分別作答）</div>
+            <div class="essay-sample">【滿分標準答案論述要點】
+日本「小雞蛋計畫」安排日間照顧機構或社區中寂寞無依的退休長輩走入托兒所，負責照顧幼兒或守護象徵新生的小生命。其核心價值在於：
+1. 徹底顛覆標籤：打破了傳統長照體系中「長輩＝被動受助者、衰老依賴者與社會負擔」的弱化標籤。
+2. 激活 Generativity（世代傳承本能）：當長輩被賦予照顧幼苗的具體職責時，深刻體會到「自己依然有能力給予、社會依然需要我」，從無力的依賴者蛻變為守護下一代的貢獻者。
+3. 重拾尊嚴與出場舞台（出番 Deban）：強烈的「被需要感」消除了孤獨寂寞，激發了自我效能感，重拾生命的自豪與崇高尊嚴。</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 2 章第 3 節「2-3 實踐案例：南房總的小屋」（01:14-04:17 牧野篤教授親述新市鎮小雞蛋計畫）</span>
+            <span class="teacher-name">(講授名師：牧野篤 老師、廖紋淑 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看官方評分維度與寫作要點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">字數約 230 字。精確闡述「被照顧者 ➔ 貢獻者」的角色翻轉，以及 Generativity 與被需要感的生命尊嚴修復。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">申論自評給分：</span>
+              
+        <button class="g-btn full" onclick="grade('bq_e2', 'card_e_2_1', 10, this)">滿分 (+10)</button>
+        <button class="g-btn half" onclick="grade('bq_e2', 'card_e_2_1', 7, this)">良 (+7)</button>
+        <button class="g-btn half" onclick="grade('bq_e2', 'card_e_2_1', 4, this)">及格 (+4)</button>
+        <button class="g-btn zero" onclick="grade('bq_e2', 'card_e_2_1', 0, this)">未答 (+0)</button>
+        
+            </div>
+            <button class="copy-btn" onclick="copyAns(`【滿分標準答案論述要點】
+日本「小雞蛋計畫」安排日間照顧機構或社區中寂寞無依的退休長輩走入托兒所，負責照顧幼兒或守護象徵新生的小生命。其核心價值在於：
+1. 徹底顛覆標籤：打破了傳統長照體系中「長輩＝被動受助者、衰老依賴者與社會負擔」的弱化標籤。
+2. 激活 Generativity（世代傳承本能）：當長輩被賦予照顧幼苗的具體職責時，深刻體會到「自己依然有能力給予、社會依然需要我」，從無力的依賴者蛻變為守護下一代的貢獻者。
+3. 重拾尊嚴與出場舞台（出番 Deban）：強烈的「被需要感」消除了孤獨寂寞，激發了自我效能感，重拾生命的自豪與崇高尊嚴。`)">📋 複製本小題擬答</button>
+          </div>
+        </div>
+        
+        <div class="sub-q-item" id="card_e_2_2">
+          <div class="sub-q-top">
+            <span class="sub-q-label" style="background: rgba(188, 140, 255, 0.15); color: #bc8cff; border-color: rgba(188, 140, 255, 0.3);">【小題 ②】</span>
+            <span class="sub-q-points">配分 10 分 ｜ 建議 200-300 字</span>
+          </div>
+          <div class="sub-q-text">結合您歲月累積的「晶體智力」（如您的拿手好菜、特殊手藝或人生智慧），您未來想如何在社區中發揮力量，讓自己成為年輕世代心靈上溫暖的「新故鄉」？</div>
+          
+          <div class="ans-box" style="background: rgba(188, 140, 255, 0.08); border-color: rgba(188, 140, 255, 0.3);">
+            <div class="ans-label" style="color: #bc8cff;">🎯 空大官方申論滿分擬答範文（分別作答）</div>
+            <div class="essay-sample">【滿分個人實踐範文】
+心理學家卡特爾（Cattell）指出，「晶體智力」是隨年齡增長而淬鍊的生活智慧與人際同理力。我計畫結合自身數十年累積的「節氣家常料理」與「職涯轉折心理調適經驗」，在社區活動中心創辦「解憂食光交流小食堂」。
+每週末邀請異鄉打拼的年輕租屋族一同做菜共餐，在香氣中溫柔傾聽青年在職場上的挫折與迷惘。我不以長輩權威下定論，而是以真誠的「共感 (Compassion)」分享過往低潮的生命軌跡。
+透過一頓飯的溫暖陪伴，讓疲憊的年輕人在異鄉隨時有溫暖靠山，實踐「無條件善意循環 (恩送 おんおくり)」，讓自己成為年輕世代心靈上隨時能停泊的「新故鄉」。</div>
+          </div>
+          
+          <div class="chapter-badge">
+            <span>📍【空大官方課程出處】：第 2 章第 1 節「2-1 長壽社會與多段式人生」（晶體智力）＋ 第 6 章第 5 節「6-5 Taiwan 幸福處方」（新故鄉象徵）</span>
+            <span class="teacher-name">(講授名師：廖紋淑 老師、牧野篤 老師)</span>
+          </div>
+          
+          <div class="details-toggle" onclick="toggleDetails(this)">
+            <span>📖 查看官方評分維度與寫作要點</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="details-content">字數約 275 字。完美揉合「晶體智力」優勢、共感傾聽陪伴、無條件恩送與成為青年心靈「新故鄉」的崇高格局。</div>
+          
+          <div class="sub-q-footer">
+            <div class="grading-group">
+              <span class="grade-title">申論自評給分：</span>
+              
+        <button class="g-btn full" onclick="grade('bq_e2', 'card_e_2_2', 10, this)">滿分 (+10)</button>
+        <button class="g-btn half" onclick="grade('bq_e2', 'card_e_2_2', 7, this)">良 (+7)</button>
+        <button class="g-btn half" onclick="grade('bq_e2', 'card_e_2_2', 4, this)">及格 (+4)</button>
+        <button class="g-btn zero" onclick="grade('bq_e2', 'card_e_2_2', 0, this)">未答 (+0)</button>
+        
+            </div>
+            <button class="copy-btn" onclick="copyAns(`【滿分個人實踐範文】
+心理學家卡特爾（Cattell）指出，「晶體智力」是隨年齡增長而淬鍊的生活智慧與人際同理力。我計畫結合自身數十年累積的「節氣家常料理」與「職涯轉折心理調適經驗」，在社區活動中心創辦「解憂食光交流小食堂」。
+每週末邀請異鄉打拼的年輕租屋族一同做菜共餐，在香氣中溫柔傾聽青年在職場上的挫折與迷惘。我不以長輩權威下定論，而是以真誠的「共感 (Compassion)」分享過往低潮的生命軌跡。
+透過一頓飯的溫暖陪伴，讓疲憊的年輕人在異鄉隨時有溫暖靠山，實踐「無條件善意循環 (恩送 おんおくり)」，讓自己成為年輕世代心靈上隨時能停泊的「新故鄉」。`)">📋 複製本小題擬答</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- ===== 答案紙（卷）標準書寫格式對照區 ===== -->
+    <section class="answer-sheet-container" id="answer_sheet_sec">
+      <div class="sheet-header">
+        <div>
+          <div class="sheet-title">📄 考場答案紙（卷）標準格式橫式對照版</div>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">符合空大「答案紙嚴禁於卷面上作答、依題號標示」之標準橫式書寫版型</div>
+        </div>
+        <button class="dock-btn" style="background: var(--gold); color: black;" onclick="copyFullAnswerSheet()">📋 一鍵複製全卷標準答案紙內容</button>
+      </div>
+      <div class="sheet-content" id="fullSheetContent">國立空中大學 115 學年度暑期期末考試【答案紙（卷）】
+科目：人生 100 幸福處方箋 ｜ 卷別：【正題】001 ｜ 橫式作答
+=================================================================
+
+一、簡答題 60%
+-----------------------------------------------------------------
+1. 關於本課程提到的核心觀念（每小題 2 分，共 10 分）：
+   (1) 伊斯特林悖論（Easterlin Paradox，幸福悖論）
+   (2) 工廠流水線規訓與標準化勞動力思想（規格化大量複製 / 圓形監獄監控）
+   (3) 自我決定（Self-Determination，自我決定感 / 自主選擇權）
+   (4) 共感 / 慈悲心（Compassion，利他之心 / 側旁伴走精神）
+   (5) 世代傳承感（Generativity，繁衍感 / 生生不息 / 守護培育下一代）
+
+2. 關於人口轉型與跨世代對話（每小題 5 分，共 10 分）：
+   (1) 平安長大、活到天年（嬰兒夭折率極低，出生後普遍皆能平安長大、活到高齡 80~100 歲）
+   (2) 年輕時真實走過的「失敗經歷 / 挫折出糗與人生迷惘經歷」（語りの場 Katari 人生地圖）
+
+3. 關於豐田市「自給自足家族」的地方實踐（每小題 5 分，共 10 分）：
+   (1) 透過「預先支付定額費用（預付生產資金 / 定額支持金保證認購）」，共同分擔天災歉收風險
+   (2) 昇華為「如同一家人的家族親情共同體（第二故鄉親人 / 虛擬家族互助夥伴）」，跨越城鄉的情感羈絆
+
+4. 關於社區的「甜甜圈理論」（每小題 5 分，共 10 分）：
+   (1) 橫向貫穿整合一切的【自主學習（Learning）】與居民自由交流的「人際互動場域 / 行政留白」
+   (2) 呈現「空洞化、無法落地、各自為政、碎片化（本位主義、被動依賴政府而缺乏內生動力）」
+
+5. 關於「彩虹眷村」的在地案例（每小題 5 分，共 10 分）：
+   (1) 拿起「畫筆」在老舊眷村的房屋與巷道牆面彩繪塗鴉創作（素人藝術自主實踐）
+   (2) 親手遞上寫滿「正向鼓勵、夢想與溫暖祝願」的正能量祝福小卡片（如寫有「祝你平安幸福」、「堅持夢想」等字卡）
+
+6. 關於「社會處方箋」與健康防護網（每小題 5 分，共 10 分）：
+   (1) 建立「非醫療、非藥物性的社會連結與社群人際支持網絡」（如社區大學、藝術、園藝、志工、共餐參與）
+   (2) 處於【與家人同住，但因家庭疏離而獨自一人吃飯（孤食）】的生活狀態（死亡危險度高達 1.47 倍）
+
+=================================================================
+二、申論題 40%
+-----------------------------------------------------------------
+1. 【從佔有到存在：生活微實驗】（每小題 10 分，共 20 分）：
+   (1) PDCA 與 AAR 在生活學習心態上的主要差異：
+       PDCA（Plan-Do-Check-Act）源於工業品質管理，其本質是「佔有模式（Having Mode）」。其學習心態以「目標控制、消除偏差、追求標準答案」為導向，強調對外在成果與流程的嚴格掌控，容易使生活陷入僵化與追求完美的焦慮中。相對地，AAR（Anticipation 預見 ➔ Action 行動 ➔ Reflection 反思）源於反思性學習，其本質是「存在模式（Being Mode）」。它鼓勵個體接納不確定性，將生活焦點從「控制結果」轉向「深層體驗與自我覺察」，在好奇心的驅動下將生活視為不怕出錯的微實驗，在行動反思中開展豐富生命智慧。
+
+   (2) 第三人生生活微實驗(AAR)與存在價值獲得：
+       我在第三人生想啟動名為「每週三巷弄手作木工交流」的生活微實驗。預期目標並非生產商品販售，而是每週三下午將自家車庫空間稍微打開（住み開き），邀請社區 2 位年輕人共同修繕舊木器。透過 AAR 反思：實際過程中，我發現年輕人更在乎的是動手過程中的減壓與對話；差異在於原本我設定「傳授手藝」，實際卻演變為「心靈傾聽與生命故事交流」；從中我學會放下長輩說教的預設，享受純粹陪伴。這項微實驗帶給我的「存在價值」，在於擺脫了過去職場上追逐名利與物質的「佔有心態」，轉化為在當下與另一個生命真誠交會的「存在體驗」，重塑生命的主體尊嚴。
+
+2. 【化解孤立：成為別人的新故鄉】（每小題 10 分，共 20 分）：
+   (1) 日本「小雞蛋計畫」讓長輩重拾「被需要感」與尊嚴之機制：
+       日本「小雞蛋計畫」安排日間照顧機構或社區中寂寞無依的退休長輩走入托兒所，負責照顧幼兒或守護象徵新生的小生命。其核心價值在於徹底顛覆了傳統長照體系中「長輩＝被動受助者、衰老依賴者與社會負擔」的弱化標籤。當長輩被賦予照顧幼苗的具體職責時，深刻激活了艾瑞克森所述「世代繁衍本能（Generativity）」。長輩重新意識到「自己依然有能力給予、社會依然需要我」，從無力的依賴者蛻變為守護下一代的貢獻者。這種強烈的「被需要感」與出場舞台（出番 Deban），消除了孤獨寂寞，有效重拾自我效能與身心尊嚴。
+
+   (2) 結合「晶體智力」在社區成為年輕世代溫暖「新故鄉」：
+       卡特爾（Cattell）提出的「晶體智力」是隨歲月歷練而沉澱的經驗、手藝與人生智慧。我計畫結合自身數十年累積的「節氣家常料理」與「職涯轉折心理調適經驗」，在社區活動中心創辦「解憂食光小食堂」。每週末邀請異鄉打拼的年輕租屋族一同做菜共餐，在香氣中溫柔傾聽青年在職場與人際上的挫折與迷惘。我不以長輩權威自居給予說教，而是以真誠的「共感 (Compassion)」分享過往低潮的生命軌跡。透過一頓飯的溫暖陪伴，讓疲憊的年輕人在異鄉隨時有溫暖靠山，實踐「無條件善意循環 (恩送 おんおくり)」，讓自己成為年輕世代心靈上隨時能停泊的「新故鄉」。
+
+【作答完畢】</div>
+    </section>
+
+  </main>
+
+  <!-- Bottom Floating Score Bar -->
+  <footer class="score-dock">
+    <div class="score-summary">
+      <div>
+        <span style="font-size: 0.8rem; color: var(--text-muted); display: block;">目前估分總成績</span>
+        <span class="score-number" id="totalScore">0</span>
+        <span class="score-total-meta"> / 100 分 (及格 60 分)</span>
+      </div>
+      <div style="font-size: 0.82rem; color: var(--text-muted); border-left: 1px solid var(--card-border); padding-left: 14px;">
+        已評閱：<span id="gradedCount">0</span> / 19 小題
+      </div>
+    </div>
+    <div class="dock-actions">
+      <button class="dock-btn reset" onclick="resetGrading()">🔄 重置評分</button>
+      <button class="dock-btn" style="background: var(--accent); color: white;" onclick="autoGradeFull()">⚡ 一鍵模擬滿分 (100分)</button>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">已複製到剪貼簿！</div>
+
+  <script>
+    const userGrades = {};
+    const bigQGrades = {
+      bq_1: {}, bq_2: {}, bq_3: {}, bq_4: {}, bq_5: {}, bq_6: {}, bq_e1: {}, bq_e2: {}
+    };
+
+    function grade(bigQId, cardId, pts, btn) {
       userGrades[cardId] = pts;
+      bigQGrades[bigQId][cardId] = pts;
+
       const parent = btn.parentElement;
       parent.querySelectorAll('.g-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
+      // Update total score
       let total = 0;
+      let count = 0;
       for (const k in userGrades) {
         total += userGrades[k];
+        count++;
       }
       document.getElementById('totalScore').textContent = total;
+      document.getElementById('gradedCount').textContent = count;
+
+      // Update big question subtotal
+      let bqTotal = 0;
+      for (const sid in bigQGrades[bigQId]) {
+        bqTotal += bigQGrades[bigQId][sid];
+      }
+      const bqScoreEl = document.getElementById(bigQId + '_score');
+      if (bqScoreEl) {
+        bqScoreEl.textContent = bqTotal;
+      }
+    }
+
+    function autoGradeFull() {
+      document.querySelectorAll('.g-btn.full').forEach(btn => {
+        btn.click();
+      });
+      showToast("⚡ 已自動填入全卷 19 題滿分估算 (100分)！");
     }
 
     function resetGrading() {
       for (const k in userGrades) delete userGrades[k];
+      for (const b in bigQGrades) {
+        bigQGrades[b] = {};
+        const bqScoreEl = document.getElementById(b + '_score');
+        if (bqScoreEl) bqScoreEl.textContent = '0';
+      }
       document.querySelectorAll('.g-btn').forEach(b => b.classList.remove('active'));
       document.getElementById('totalScore').textContent = '0';
+      document.getElementById('gradedCount').textContent = '0';
       showToast("已重置所有題目的對答案得分！");
     }
 
@@ -1128,49 +1736,59 @@
       const essays = document.querySelectorAll('.sec-essay');
 
       if (type === 'all') {
-        shorts.forEach(el => el.style.display = 'block');
-        essays.forEach(el => el.style.display = 'block');
+        shorts.forEach(el => el.style.display = '');
+        essays.forEach(el => el.style.display = '');
       } else if (type === 'short') {
-        shorts.forEach(el => el.style.display = 'block');
+        shorts.forEach(el => el.style.display = '');
         essays.forEach(el => el.style.display = 'none');
       } else if (type === 'essay') {
         shorts.forEach(el => el.style.display = 'none');
-        essays.forEach(el => el.style.display = 'block');
+        essays.forEach(el => el.style.display = '');
       }
     }
 
     function toggleDetails(header) {
       const content = header.nextElementSibling;
-      content.classList.toggle('open');
-      const arrow = header.querySelector('span:last-child');
-      arrow.textContent = content.classList.contains('open') ? '▲' : '▼';
-    }
-
-    function copyAns(text) {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(text).then(() => showToast("已成功複製標準答案！"));
-      } else {
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand("copy");
-        document.body.removeChild(ta);
-        showToast("已成功複製標準答案！");
+      const arrow = header.querySelector('.arrow');
+      content.classList.toggle('show');
+      if (arrow) {
+        arrow.textContent = content.classList.contains('show') ? '▲' : '▼';
       }
     }
 
+    function copyAns(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("📋 已複製題目答案到剪貼簿！");
+      }).catch(() => {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        showToast("📋 已複製題目答案到剪貼簿！");
+      });
+    }
+
+    function copyFullAnswerSheet() {
+      const text = document.getElementById('fullSheetContent').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("📄 已複製全卷標準答案紙內容！");
+      });
+    }
+
     function showToast(msg) {
-      const t = document.getElementById('toast');
-      t.textContent = msg;
-      t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 2000);
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.style.display = 'block';
+      setTimeout(() => { toast.style.display = 'none'; }, 2200);
     }
 
     function toggleTheme() {
-      const cur = document.documentElement.getAttribute('data-theme');
-      const next = cur === 'dark' ? 'light' : 'dark';
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
+      document.getElementById('theme-icon').textContent = next === 'dark' ? '🌓' : '☀️';
     }
   </script>
 </body>
